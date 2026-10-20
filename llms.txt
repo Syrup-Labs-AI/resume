@@ -32,6 +32,7 @@ Plain text: https://syrp.ai/resume.txt
 - CRM: Salesforce, HubSpot, GoHighLevel, GA4
 - MBA, Villanova University (Strategy, Analytics, AI/ML), GPA 4.0, Beta Gamma Sigma
 - B.S. Chemical Engineering, UMBC
+- At DwyerOmega: built wire products for SpaceX rockets, measured more than 50,000 different UL-grade wires, and created a new method for measuring wire
 - APICS CSCP certified
 - Lean Six Sigma Green Belt
 - Currently: Founder, Syrup Labs AI (syrp.ai) - AI automation consultancy and xxOS agentic operating system
