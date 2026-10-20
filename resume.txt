@@ -7,54 +7,82 @@ linkedin.com/in/alanjkarp | syrp.ai/resume
 SEEKING: Director or Senior Manager level roles in AI program management, enterprise transformation, business operations, or AI operations. Remote or hybrid. Greater Philadelphia area.
 
 PROFESSIONAL OVERVIEW
-AI Program Manager with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems. Founded Syrup Labs AI to build and deploy practical agentic systems, lead capture workflows, and automation infrastructure for small businesses. Previously at DwyerOmega (PE-backed industrial sensors, instrumentation, and semiconductor manufacturer), drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through 6 acquisitions ($800M+). MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC. APICS CSCP.
+AI Program Manager with 10 years driving enterprise transformation at PE-backed manufacturing platforms. At DwyerOmega, led cross-functional program execution across ERP/MRP, AMS, CRM/MarTech, and enterprise BI through 6 acquisitions ($800M+), reporting to PE stakeholders and executive leadership throughout. Currently founder of Syrup Labs AI, building xxOS (an agentic operating system and multi-machine agent fleet) plus lead capture workflows and automation infrastructure for small businesses, translating messy operational realities into structured, repeatable automation programs. Chemical engineer by training with manufacturing and wire engineering work behind it: at DwyerOmega, built wire products for SpaceX rockets, measured more than 50,000 different UL-grade wires, and created a new way to measure wire. Manufacturing specialist: ERP/MRP integration, M&A consolidation, and AI-assisted knowledge management across industrial operations. MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC.
 
 TECHNICAL SKILLS
-AI Automation: Agentic Workflow Architecture, AI Agent Design, Prompt Engineering, RAG Knowledge Bases, Low-Code Automation, AI Concierge Systems, Lead Capture & Routing, n8n, GoHighLevel, HubSpot, Gemini, Claude, Claude Code, ChatGPT, Codex, AutoResearch AI, Obsidian, Google Workspace Automation
-Core Competencies: Enterprise Transformation, Post-Merger Integration (6 acquisitions, $800M+), Program & Project Leadership, ERP/MRP & Enterprise Applications, CRM & MarTech Enablement, Data Platforms & BI, Reporting Governance, Agile & Sprint Planning, Change Management
+AI Automation: Agent Design, Agentic Workflows, Prompt Engineering, Knowledge Base Design, Low-Code Automation, n8n, GoHighLevel, Gemini, Claude, Claude Code, ChatGPT, LangChain, AutoResearch AI
+Agent Infrastructure: Claude Code, Hermes, OpenClaw, OmniRoute, Tailscale, Next.js, SQLite, Telegram Bot API, Obsidian, Understand-Anything
+Manufacturing & Wire: Chemical Engineering, Wire Measurement, UL-Grade Wire, Machine Learning
 ERP & Business Systems: SyteLine, SAP S/4HANA, QAD, Sage, QuickBooks, Workwise, MRM, AMS
 Data & Analytics: Microsoft Fabric, Power BI, Tableau, SQL, Python, R, DAX Studio, KNIME, Power Query
 CRM & MarTech: Salesforce, HubSpot, Hybris, GA4, GoHighLevel
-Work Management: Jira (Global Admin), Confluence, Agile/Scrum, Notion, Visio, MS Office, Adobe Suite
+Program Management: Jira (Global Admin), Confluence, Agile, Scrum, Lean Six Sigma, Post-Merger Integration, Change Management
+Work Management: Notion, Visio, MS Office, Adobe Suite, draw.io, SOLIDWORKS
 
 PROFESSIONAL EXPERIENCE
 
 SYRUP LABS AI (SYRP.AI) | Chadds Ford, PA
-AI Program Manager (title of record: AI Automation Consultant) | Feb 2026 - Present
-AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.
-- Designed and deployed AI concierge and intake systems providing lead tracking, automated follow-up, and analytics visibility.
-- Built parent/subagent architectures with prompt guardrails, FAQ handling, escalation logic, and intent separation.
-- Implemented low-code automation pipelines using GoHighLevel, HubSpot, Google Sheets, Gmail.
-- Created live pilot environments including hosted landing pages, QR-based event capture, and end-to-end demo environments.
-- Led full engagement lifecycle: discovery, scope, pricing, prompt iteration, testing, and phased rollout.
+AI Program Manager | Feb 2026 to Present
+Title of record: AI Automation Consultant. AI automation consultancy building and deploying bootstrapped agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.
+- Founded Syrup Labs AI and built xxOS, an agentic operating system. Its Mission Control dashboard (Next.js, SQLite) has 39 panels for agent fleets, tasks, costs, and workflows, with 554 merged pull requests.
+- Run a multi-machine agent fleet (Hermes, OpenClaw, OmniRoute, Claude Code) across 4 machines over Tailscale, with Telegram bots, Obsidian knowledge vaults, and Understand-Anything code graphs that agents read for context.
+- Led end-to-end program delivery for AI automation builds, from scoping through deployment: scoped, priced, built, tested, and rolled out agentic systems with ROI tied to admin time saved and lead capture volume.
+- Built and internally validated AI concierge, intake, and lead-routing systems on Syrup Labs' own infrastructure.
+- Built parent/subagent architectures grounded in business-specific knowledge bases, with prompt guardrails, FAQ handling, escalation logic, and intent separation between support and qualified lead triggers.
+- Implemented low-code automation pipelines using GoHighLevel, HubSpot, n8n, Google Sheets, and Gmail.
+- Defined shared schemas for agent secrets, notes, artifacts, registry rows, and pull request attribution so every tool and agent reads the same fields.
+- Building a job application product where every claim in a draft must cite a source file and unbacked claims are refused.
+- Translated ambiguous business goals into structured automation roadmaps; managed full engagement lifecycle from discovery through phased rollout and stakeholder onboarding.
 
 DWYEROMEGA | Chadds Ford, PA
-AI Program Manager (title of record: AI & Enterprise Transformation Manager) | Jan 2024 - Feb 2026
-PE-backed industrial sensors, instrumentation, and semiconductor manufacturer; enterprise transformation spanning ERP/MRP, AMS, CRM/MarTech, and enterprise BI.
-- Managed execution for 6 acquisitions and consolidations valued at $800M+ into core ERP/MRP landscape.
-- Owned enterprise reporting governance across global orders, sales, pricing, quality, and inventory.
-- Oversaw 15-20 resource offshore vendor team.
-- Global Admin for Jira and Confluence; deployed AI-assisted knowledge management in Confluence.
-- Applied AI and LLMs across documentation generation, requirements analysis, and data reconciliation workflows.
-- Led greenfield AMS and Microsoft Fabric implementation planning.
-- Integrated Salesforce, HubSpot, Hybris, GA4 with ERP, AMS, and Fabric.
-- Built data-forensics workflow using Power Query, DAX Studio, and KNIME.
+AI Program Manager | Jan 2024 to Feb 2026
+Title of record: AI & Enterprise Transformation Manager. PE-backed industrial sensors, instrumentation, and semiconductor manufacturer; enterprise transformation spanning ERP/MRP, AMS, CRM/MarTech, and enterprise BI across Operations, Finance, Commercial, IT, Supply Chain, and PE stakeholders.
+- Led AI and enterprise transformation programs across 6 acquisitions ($800M+), integrating ERP/MRP (SAP S/4HANA, SyteLine, QAD), AMS, CRM/MarTech, and enterprise BI while reporting directly to PE stakeholders and C-suite leadership.
+- Applied AI and large language models across operational workflows including documentation generation, requirements analysis, data reconciliation automation, and vendor performance reporting, delivered at scale across post-merger integration environments.
+- Managed program and project execution across cross-functional teams spanning Operations, Finance, Commercial, IT, and Supply Chain; standardized KPIs and integration playbooks for repeatable M&A execution.
+- Owned enterprise reporting governance and reconciliation across global orders, sales, pricing, quality, and inventory; supported executive and PE decisions tied to pricing, margin, and working capital.
+- Oversaw 15-20 resource offshore vendor team: day-to-day tasking, prioritization, progress reporting, and delivery performance tracking.
+- Served as Global Admin for Jira and Confluence; deployed AI-assisted knowledge management in Confluence to improve documentation quality and governance scalability.
+- Led greenfield implementation planning for enterprise AMS and Microsoft Fabric; coordinated cross-functional discovery, harmonization, and planning with external consulting partner.
+- Built repeatable data-forensics workflow using Power Query, DAX Studio, and KNIME to reconcile large datasets and validate executive reporting when data integrity was disputed.
 
 DWYEROMEGA | Swedesboro, NJ
-Senior Automation Engineer | Apr 2021 - Jan 2024
+Senior Automation Engineer | Apr 2021 to Jan 2024
 Automation, analytics, and continuous improvement in PE-backed sensor and wire manufacturing; 3 consecutive Top Performer of the Year awards.
-- Designed and executed $2M+ in automation and robotics-driven capital projects.
-- Reduced on-hand inventory by 60%+ across a $20M+ inventory base.
-- Led Lean and continuous improvement initiatives including Kaizen events.
-- Built KPI dashboards for operations, engineering, and supply chain.
+- Built wire products for SpaceX rockets.
+- Measured more than 50,000 different UL-grade wires.
+- Created a new method for measuring wire.
+- Designed and executed $2M+ in automation and robotics-driven capital projects, improving throughput, reducing labor and overhead costs, and supporting sensor performance; served as cross-functional lead coordinating engineering, operations, and supply chain.
+- Applied analytics and predictive methods to planning and inventory; reduced on-hand inventory by more than 60% across a $20M+ inventory base while maintaining internal service levels and improving delivery performance.
+- Led Lean and continuous improvement initiatives including standardized work design, root-cause problem solving, and Kaizen events; drove sustained improvements in scrap, uptime, and changeover.
+- Built KPI dashboards with operations, engineering, and supply chain leadership to improve executive visibility into output, scrap, and operational constraints.
+
+COPPERWELD | Pennsauken, NJ
+Production Manager | Nov 2020 to Apr 2021
+Operations leadership across 40+ employees and 14+ lines in a 24/7 facility. Role ended due to facility closure following corporate reorganization.
+- Managed 40+ employees across 14+ production lines in a 24/7 environment, driving safety, quality, and delivery performance.
+- Contributed to $3M+ in annualized labor savings through workflow redesign, line balancing, and reduced overtime.
+
+SELIT NORTH AMERICA, INC. | Plattsburgh, NY
+Process & Manufacturing Engineer | Oct 2018 to Nov 2020
+24/7 foam extrusion and recycling operations for flooring OEM underlayment. Key contributor to OSHA SHARP certification.
+- Spearheaded startup of a $20M sister facility near Atlanta, GA, including full plant design, equipment procurement, process development, and production line commissioning from greenfield.
+- Served as day-to-day technical lead for a 30+ FTE production team across safety, quality, process, and customer issues.
+
+TORAY PLASTICS | Front Royal, VA
+Process Engineer | May 2017 to May 2018
+Foam extrusion for global luxury automotive OEMs; OSHA Star-certified site.
+- Optimized final stages of the foam expansion process, increasing line speeds by an average of 60 meters per hour and generating $1M+ in annualized revenue impact.
 
 EDUCATION
-Villanova University | MBA, Strategic Management, Analytics & AI/ML | 2023-2025 | GPA 4.0 | Beta Gamma Sigma
-University of Maryland, Baltimore County | B.S. Chemical Engineering | 2010-2016
+Villanova University | MBA, Strategic Management, Analytics & AI/ML | 2023 to 2025 | GPA 4.0 | Beta Gamma Sigma
+University of Maryland, Baltimore County | B.S. Chemical Engineering | 2010 to 2016
 
 CERTIFICATIONS
 APICS CSCP | Atlassian Agile Project Management Professional | Google Cybersecurity Professional | Lean Six Sigma Green Belt (Drexel) | ISO 9001 Foundation | Value Analysis & Value Engineering (Lean Focus)
 
 VOLUNTEERING
 National Multiple Sclerosis Society - Bike MS rider and volunteer since 2003; raised $30,000+ for MS research.
-Little Thistle Farms - Co-Founder and Operator, 2-acre organic heirloom farm LLC, Chadds Ford PA, 2023-present.
+Little Thistle Farms - Co-Founder and Operator, 2-acre organic heirloom farm LLC, Chadds Ford PA, 2023 to present.
+Plastic Recycling - Personal project. Recycles many kinds of plastic and is exploring agents for recycling machines.
+Photo, SEO & AEO - Planned. Large personal photo library; planning free, local photo sweeps and SEO and AEO generators.

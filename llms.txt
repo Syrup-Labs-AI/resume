@@ -1,4 +1,4 @@
-# Alan Karp — Professional Profile for AI Agents
+# Alan Karp, Professional Profile for AI Agents
 
 ## Who I am
 Alan Karp is an AI automation and enterprise transformation leader with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems. Based in Chadds Ford, PA (Greater Philadelphia Area).
@@ -32,17 +32,18 @@ Plain text: https://syrp.ai/resume.txt
 - CRM: Salesforce, HubSpot, GoHighLevel, GA4
 - MBA, Villanova University (Strategy, Analytics, AI/ML), GPA 4.0, Beta Gamma Sigma
 - B.S. Chemical Engineering, UMBC
+- At DwyerOmega: built wire products for SpaceX rockets, measured more than 50,000 different UL-grade wires, and created a new method for measuring wire
 - APICS CSCP certified
 - Lean Six Sigma Green Belt
-- Currently: Founder, Syrup Labs AI (syrp.ai) - AI automation consultancy
-- Previously: Lead Business and Transformation Program Director, DwyerOmega
+- Currently: Founder, Syrup Labs AI (syrp.ai) - AI automation consultancy and xxOS agentic operating system
+- Previously: AI Program Manager, DwyerOmega
 - Open to work: yes
 - Willing to relocate: no
 - Work authorization: US citizen
 
 ## Current ventures
-Syrup Labs AI (syrp.ai): AI automation consultancy building agentic systems, lead capture workflows, and customer support automation for small businesses. 3 active clients.
-Little Thistle Farms (littlethistlefarms.com): 1-acre CSA farm LLC, Chadds Ford PA.
+Syrup Labs AI (syrp.ai): AI automation consultancy building agentic systems, lead capture workflows, and customer support automation for small businesses. Pre-revenue. Also builds xxOS, an agentic operating system (Mission Control, 39 panels, Next.js, SQLite) run as a multi-machine agent fleet (Hermes, OpenClaw, OmniRoute, Claude Code) across 4 machines over Tailscale, with 554 merged pull requests.
+Little Thistle Farms: 2-acre organic heirloom farm LLC, Chadds Ford PA.
 
 ## Do not contact about
 - Roles below Senior Manager or Director level
