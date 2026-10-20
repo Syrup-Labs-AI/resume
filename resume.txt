@@ -10,7 +10,7 @@ PROFESSIONAL OVERVIEW
 AI Program Manager with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems. Founded Syrup Labs AI to build and deploy practical agentic systems, lead capture workflows, and automation infrastructure for small businesses. Previously at DwyerOmega (PE-backed industrial sensors, instrumentation, and semiconductor manufacturer), drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through 6 acquisitions ($800M+). MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC. APICS CSCP.
 
 TECHNICAL SKILLS
-AI Automation: Agentic Workflow Architecture, AI Agent Design, Prompt Engineering, RAG Knowledge Bases, Low-Code Automation, AI Concierge Systems, Lead Capture & Routing, n8n, GoHighLevel, HubSpot, Gemini, Claude, Claude Code, ChatGPT, Codex, AutoResearch AI, Obsidian, Google Workspace Automation
+AI Automation: Agentic Workflow Architecture, AI Agent Design, Prompt Engineering, RAG Knowledge Bases, Low-Code Automation, AI Concierge Systems, Lead Capture & Routing, n8n, GoHighLevel, HubSpot, Gemini, Claude, Claude Code, Hermes, OpenClaw, OmniRoute, Tailscale, ChatGPT, Codex, AutoResearch AI, Obsidian, Google Workspace Automation
 Core Competencies: Enterprise Transformation, Post-Merger Integration (6 acquisitions, $800M+), Program & Project Leadership, ERP/MRP & Enterprise Applications, CRM & MarTech Enablement, Data Platforms & BI, Reporting Governance, Agile & Sprint Planning, Change Management
 ERP & Business Systems: SyteLine, SAP S/4HANA, QAD, Sage, QuickBooks, Workwise, MRM, AMS
 Data & Analytics: Microsoft Fabric, Power BI, Tableau, SQL, Python, R, DAX Studio, KNIME, Power Query
@@ -22,6 +22,8 @@ PROFESSIONAL EXPERIENCE
 SYRUP LABS AI (SYRP.AI) | Chadds Ford, PA
 AI Program Manager (title of record: AI Automation Consultant) | Feb 2026 - Present
 AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.
+- Founded Syrup Labs AI and built xxOS, an agentic operating system. Its Mission Control dashboard (Next.js, SQLite) has 39 panels for agent fleets, tasks, costs, and workflows, with 554 merged pull requests.
+- Run a multi-machine agent fleet (Hermes, OpenClaw, OmniRoute, Claude Code) across 4 machines over Tailscale, with Telegram bots, Obsidian knowledge vaults, and Understand-Anything code graphs that agents read for context.
 - Designed and deployed AI concierge and intake systems providing lead tracking, automated follow-up, and analytics visibility.
 - Built parent/subagent architectures with prompt guardrails, FAQ handling, escalation logic, and intent separation.
 - Implemented low-code automation pipelines using GoHighLevel, HubSpot, Google Sheets, Gmail.

@@ -6,7 +6,7 @@
     "email": "alanjacobkarp@gmail.com",
     "phone": "601-389-7206",
     "url": "https://syrp.ai",
-    "summary": "Transformation and integration leader with a background spanning manufacturing, enterprise systems, analytics, and AI automation. Founded Syrup Labs AI (syrp.ai) to translate operational experience into applied AI, delivering agentic concierge systems, lead capture workflows, and automation infrastructure for small and local businesses across retail, hospitality, and local services. Previously at DwyerOmega, drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through six acquisitions ($800M+), while implementing AI-enabled knowledge management to improve governance at scale. B.S. Chemical Engineering (UMBC) and MBA (Villanova: Strategy, Analytics, AI/ML). Strong in ambiguous environments requiring structure, stakeholder alignment, technical problem solving, and follow-through.",
+    "summary": "Transformation and integration leader with a background spanning manufacturing, enterprise systems, analytics, and AI automation. Founded Syrup Labs AI (syrp.ai) to translate operational experience into applied AI, delivering agentic concierge systems, lead capture workflows, and automation infrastructure for small and local businesses across retail, hospitality, and local services. Building xxOS, an agentic operating system run as a multi-machine agent fleet. Previously at DwyerOmega, drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through six acquisitions ($800M+), while implementing AI-enabled knowledge management to improve governance at scale. B.S. Chemical Engineering (UMBC) and MBA (Villanova: Strategy, Analytics, AI/ML). Strong in ambiguous environments requiring structure, stakeholder alignment, technical problem solving, and follow-through.",
     "location": {
       "city": "Chadds Ford",
       "region": "PA",
@@ -36,6 +36,8 @@
       "location": "Chadds Ford, PA",
       "summary": "Title of record: Founder & AI Automation Consultant. AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.",
       "highlights": [
+        "Founded Syrup Labs AI and built xxOS, an agentic operating system. Its Mission Control dashboard (Next.js, SQLite) has 39 panels for agent fleets, tasks, costs, and workflows, with 554 merged pull requests.",
+        "Run a multi-machine agent fleet (Hermes, OpenClaw, OmniRoute, Claude Code) across 4 machines over Tailscale, with Telegram bots, Obsidian knowledge vaults, and Understand-Anything code graphs that agents read for context.",
         "Designed and deployed AI concierge and intake systems including website assistants, event and community signup flows, and structured inquiry routing, providing lead tracking, automated follow-up, and analytics visibility into inquiry volume and source.",
         "Built parent/subagent architectures grounded in business-specific knowledge bases, with prompt guardrails, FAQ handling, escalation logic, and intent separation between general support and qualified lead triggers.",
         "Implemented low-code automation pipelines using GoHighLevel, Google Sheets, Gmail, and website widgets to capture submissions, trigger notifications, log inquiries, track QR and source campaigns, and route qualified leads into client workflows.",
@@ -154,7 +156,7 @@
   "skills": [
     {
       "name": "AI Automation",
-      "keywords": ["AI Agent Design", "Agentic Workflow Architecture", "Prompt Engineering", "Knowledge Base Design", "Low-Code Automation", "AI Concierge Systems", "Lead Capture & Routing", "n8n", "GoHighLevel", "Gemini", "Claude", "ChatGPT", "Google Workspace Automation"]
+      "keywords": ["AI Agent Design", "Agentic Workflow Architecture", "Prompt Engineering", "Knowledge Base Design", "Low-Code Automation", "AI Concierge Systems", "Lead Capture & Routing", "n8n", "GoHighLevel", "Gemini", "Claude", "Claude Code", "Hermes", "OpenClaw", "OmniRoute", "Tailscale", "Obsidian", "ChatGPT", "Google Workspace Automation"]
     },
     {
       "name": "Core Competencies",
