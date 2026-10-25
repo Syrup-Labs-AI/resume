@@ -1,7 +1,7 @@
-# Alan Karp — Professional Profile for AI Agents
+# Alan Karp: Professional Profile for AI Agents
 
 ## Who I am
-Alan Karp is an AI automation and enterprise transformation leader with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems. Based in Chadds Ford, PA (Greater Philadelphia Area).
+Alan Karp is a manufacturing and process engineer turned AI operations leader. Since 2017 he has worked across process engineering, plant operations and enterprise transformation in PE-backed manufacturing, and he now applies measurement-system, process-control and lean thinking to AI. Based in Chadds Ford, PA (Greater Philadelphia Area).
 
 ## What I am looking for
 Director or Senior Manager level roles in:
@@ -24,27 +24,27 @@ JSON Resume (schema.org compatible): https://syrp.ai/resume.json
 Plain text: https://syrp.ai/resume.txt
 
 ## Key facts for matching
-- 10 years total experience
-- 6 PE-backed acquisitions managed ($800M+)
+- Experience since 2017 (process engineer, production manager, automation engineer, transformation manager)
+- 6 PE-backed acquisitions led ($800M+), 27 enterprise systems consolidated, reported to the CIO
 - ERP systems: SyteLine, SAP S/4HANA, QAD
-- AI tools: Claude, Claude Code, ChatGPT, Codex, n8n, GoHighLevel, RAG architectures
+- AI tools: Claude, Claude Code, ChatGPT, Codex, n8n, GoHighLevel, local models
+- AI operations work (Syrup Labs, Feb 2026 to present): model exam graded at a Wilson 95% lower bound, independent acceptance checks with receipts, lean tools (kanban, andon, poka-yoke, 5S, hoshin) mapped onto an agent fleet, verified disaster recovery for 841 GB
 - Data: Microsoft Fabric, Power BI, Tableau, SQL, Python, Power Query
 - CRM: Salesforce, HubSpot, GoHighLevel, GA4
-- MBA, Villanova University (Strategy, Analytics, AI/ML), GPA 4.0, Beta Gamma Sigma
+- MBA, Villanova University (Strategic Management, Analytics, AI/ML), GPA 4.0, Beta Gamma Sigma
 - B.S. Chemical Engineering, UMBC
 - APICS CSCP certified
-- Lean Six Sigma Green Belt
-- Currently: Founder, Syrup Labs AI (syrp.ai) - AI automation consultancy
-- Previously: Lead Business and Transformation Program Director, DwyerOmega
+- Lean Six Sigma Green Belt (Drexel)
+- Currently: Founder, Syrup Labs AI (syrp.ai), a pre-revenue AI enablement company targeting three paying clients
+- Previously: AI and Enterprise Transformation Manager, DwyerOmega (Jan 2024 to Feb 2026)
 - Open to work: yes
 - Willing to relocate: no
 - Work authorization: US citizen
 
 ## Current ventures
-Syrup Labs AI (syrp.ai): AI automation consultancy building agentic systems, lead capture workflows, and customer support automation for small businesses. 3 active clients.
-Little Thistle Farms (littlethistlefarms.com): 1-acre CSA farm LLC, Chadds Ford PA.
+Syrup Labs AI (syrp.ai): pre-revenue AI enablement company. Builds, tests and governs its own agent infrastructure; no client results are claimed.
+Little Thistle Farms (littlethistlefarms.com): about 2-acre organic heirloom farm LLC, Chadds Ford PA (garlic, flowers, herbs, canning and pickling).
 
 ## Do not contact about
 - Roles below Senior Manager or Director level
 - Fully on-site roles outside Greater Philadelphia
-- Compensation below $120K base

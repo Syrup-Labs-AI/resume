@@ -7,10 +7,11 @@ linkedin.com/in/alanjkarp | syrp.ai/resume
 SEEKING: Director or Senior Manager level roles in AI program management, enterprise transformation, business operations, or AI operations. Remote or hybrid. Greater Philadelphia area.
 
 PROFESSIONAL OVERVIEW
-AI Program Manager with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems. Founded Syrup Labs AI to build and deploy practical agentic systems, lead capture workflows, and automation infrastructure for small businesses. Previously at DwyerOmega (PE-backed industrial sensors, instrumentation, and semiconductor manufacturer), drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through 6 acquisitions ($800M+). MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC. APICS CSCP.
+Manufacturing and process engineer turned AI operations leader. Since 2017: process engineering, plant operations and enterprise transformation in PE-backed manufacturing. At DwyerOmega, led AI and enterprise transformation across 6 acquisitions ($800M+), consolidating 27 enterprise systems and reporting to the CIO. Now founder of Syrup Labs AI, where I apply measurement-system, process-control and lean thinking to AI: every agent output is checked by something that can say no, and the checkers are themselves checked. MBA, Villanova (Strategic Management, Analytics, AI/ML). B.S. Chemical Engineering, UMBC.
 
 TECHNICAL SKILLS
-AI Automation: Agentic Workflow Architecture, AI Agent Design, Prompt Engineering, RAG Knowledge Bases, Low-Code Automation, AI Concierge Systems, Lead Capture & Routing, n8n, GoHighLevel, HubSpot, Gemini, Claude, Claude Code, ChatGPT, Codex, AutoResearch AI, Obsidian, Google Workspace Automation
+AI Operations: Agent Design and Orchestration, Model Evaluation, Prompt Engineering, Knowledge Base Design, Low-Code Automation, n8n, GoHighLevel, HubSpot, Gemini, Claude, Claude Code, ChatGPT, Codex, Local Models
+Quality & Lean: Lean Six Sigma Green Belt, ISO 9001, Kanban, Poka-yoke, Andon, 5S, Hoshin Planning, OSHA Safety Programs
 Core Competencies: Enterprise Transformation, Post-Merger Integration (6 acquisitions, $800M+), Program & Project Leadership, ERP/MRP & Enterprise Applications, CRM & MarTech Enablement, Data Platforms & BI, Reporting Governance, Agile & Sprint Planning, Change Management
 ERP & Business Systems: SyteLine, SAP S/4HANA, QAD, Sage, QuickBooks, Workwise, MRM, AMS
 Data & Analytics: Microsoft Fabric, Power BI, Tableau, SQL, Python, R, DAX Studio, KNIME, Power Query
@@ -21,12 +22,15 @@ PROFESSIONAL EXPERIENCE
 
 SYRUP LABS AI (SYRP.AI) | Chadds Ford, PA
 AI Program Manager (title of record: AI Automation Consultant) | Feb 2026 - Present
-AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.
-- Designed and deployed AI concierge and intake systems providing lead tracking, automated follow-up, and analytics visibility.
-- Built parent/subagent architectures with prompt guardrails, FAQ handling, escalation logic, and intent separation.
-- Implemented low-code automation pipelines using GoHighLevel, HubSpot, Google Sheets, Gmail.
-- Created live pilot environments including hosted landing pages, QR-based event capture, and end-to-end demo environments.
-- Led full engagement lifecycle: discovery, scope, pricing, prompt iteration, testing, and phased rollout.
+Title of record: AI Automation Consultant. Pre-revenue AI enablement company, targeting three paying clients. Ran AI like a production line, with inspection built in.
+- Process control for AI work. Operate Mission Control, an open-source agent operations platform I extended: 100+ API routes, an agent task board with column gates, a decision ledger of 4,400+ recorded entries (1,000+ of them logged as failures), and quality gates that refuse to let work close without proof. Maintained across a 1,365-commit codebase.
+- Measurement systems. Built a golden-question exam that grades AI models and passes one only if the Wilson 95% lower bound of its score clears the bar. Six local models graded; one passed (gemma4, 0.994 score, 0.965 lower bound over 20 runs), five failed.
+- Gauge discipline. Found that an internal research-grading judge returned a passing template and truncated 36% of its input, and closed that pipeline rather than ship it. Later fixed six checkers that reported success while testing nothing.
+- Independent verification. Built a signed-contract task executor in which a second model performs the acceptance check and writes a receipt (4 receipts, 3 passed).
+- Lean applied to AI operations. Mapped kanban and WIP limits, andon escalation, poka-yoke guards (build, secret and worktree guards), 5S and hoshin planning onto the agent fleet; a 5S census of 575 project folders flagged 351 as stale.
+- Reliability. Run a self-hosted stack of 5 containerized services continuously since June 2026 at $26 per month. Verified disaster recovery for 841 GB: encrypted backup with SHA-256 check, two verified snapshots and a completed cold restore.
+- Fleet and cost. Moved the coordinator and an assistant agent to a local model on a single-GPU workstation, cutting per-token cost for routine work. Track 9 active product lines with market research in IdeaBrowser.
+- Implemented low-code automation (GoHighLevel, HubSpot, n8n, Google Sheets, Gmail), eliminating 10+ hours of manual admin per week per deployment. Scoped a four-week, $15K fixed-price pilot proposal for a prospective client.
 
 DWYEROMEGA | Chadds Ford, PA
 AI Program Manager (title of record: AI & Enterprise Transformation Manager) | Jan 2024 - Feb 2026
