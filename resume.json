@@ -185,6 +185,76 @@
   ],
   "skills": [
     {
+      "name": "Stack: Orchestration and agents",
+      "keywords": [
+        "Claude Code",
+        "Hermes Agent (Nous Research)",
+        "OpenClaw",
+        "OpenCode",
+        "n8n",
+        "MCPJungle",
+        "IdeaBrowser"
+      ]
+    },
+    {
+      "name": "Stack: Models",
+      "keywords": [
+        "Anthropic Claude",
+        "Ollama local models (gemma4, qwen3, glm4, granite, llama3.1)",
+        "OmniRoute",
+        "OpenRouter"
+      ]
+    },
+    {
+      "name": "Stack: Memory and knowledge",
+      "keywords": [
+        "Hindsight",
+        "Mnemosyne",
+        "Qdrant",
+        "Obsidian"
+      ]
+    },
+    {
+      "name": "Stack: Observability",
+      "keywords": [
+        "Datadog"
+      ]
+    },
+    {
+      "name": "Stack: Infrastructure",
+      "keywords": [
+        "Tailscale",
+        "Docker",
+        "Infisical",
+        "Cloudflare tunnels",
+        "Backblaze B2 (rclone)",
+        "Syncthing"
+      ]
+    },
+    {
+      "name": "Stack: Delivery",
+      "keywords": [
+        "Next.js",
+        "SQLite",
+        "Playwright",
+        "GitHub Actions (self-hosted runner)"
+      ]
+    },
+    {
+      "name": "Stack: Open source I run or extend",
+      "keywords": [
+        "xxOS and Mission Control",
+        "Hermes Agent",
+        "OpenClaw",
+        "OmniRoute",
+        "MCPJungle",
+        "Qdrant",
+        "Infisical",
+        "n8n",
+        "Ollama"
+      ]
+    },
+    {
       "name": "AI Automation",
       "keywords": [
         "Agent Design",

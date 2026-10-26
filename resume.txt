@@ -9,6 +9,17 @@ SEEKING: Director or Senior Manager level roles in AI program management, enterp
 PROFESSIONAL OVERVIEW
 AI Program Manager with 10 years driving enterprise transformation at PE-backed manufacturing platforms. At DwyerOmega, led cross-functional program execution across ERP/MRP, AMS, CRM/MarTech, and enterprise BI through 6 acquisitions ($800M+), reporting to PE stakeholders and executive leadership throughout. Currently founder of Syrup Labs AI, building xxOS (an agentic operating system and multi-machine agent fleet) plus lead capture workflows and automation infrastructure for small businesses, translating messy operational realities into structured, repeatable automation programs. Chemical engineer by training with manufacturing and wire engineering work behind it: at DwyerOmega, built SpaceX's wires, including 50K+ UL wires. Manufacturing specialist: ERP/MRP integration, M&A consolidation, and AI-assisted knowledge management across industrial operations. MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC.
 
+STACK I BUILD AND OPERATE
+Multi-vendor by design. Anthropic is one of several model and tool vendors I run.
+Orchestration and agents: Claude Code, Hermes Agent (Nous Research), OpenClaw, OpenCode, n8n, MCPJungle, IdeaBrowser
+Models: Anthropic Claude, Ollama local models (gemma4, qwen3, glm4, granite, llama3.1), OmniRoute, OpenRouter
+Memory and knowledge: Hindsight, Mnemosyne, Qdrant, Obsidian
+Observability: Datadog
+Infrastructure: Tailscale, Docker, Infisical, Cloudflare tunnels, Backblaze B2 (rclone), Syncthing
+Delivery: Next.js, SQLite, Playwright, GitHub Actions (self-hosted runner)
+Open source I run or extend: xxOS and Mission Control, Hermes Agent, OpenClaw, OmniRoute, MCPJungle, Qdrant, Infisical, n8n, Ollama
+I write a regular LinkedIn series on AI agents and verification, built with a research loop.
+
 TECHNICAL SKILLS
 AI Automation: Agent Design, Agentic Workflows, Prompt Engineering, Knowledge Base Design, Low-Code Automation, n8n, GoHighLevel, Gemini, Claude, Claude Code, ChatGPT, LangChain, AutoResearch AI
 Agent Infrastructure: Claude Code, Hermes, OpenClaw, OmniRoute, Tailscale, Next.js, SQLite, Telegram Bot API, Obsidian, Understand-Anything

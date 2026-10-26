@@ -24,6 +24,8 @@ JSON Resume (schema.org compatible): https://syrp.ai/resume.json
 Plain text: https://syrp.ai/resume.txt
 
 ## Key facts for matching
+- Stack I build and operate (multi-vendor; Anthropic is one of several): Orchestration and agents: Claude Code, Hermes Agent (Nous Research), OpenClaw, OpenCode, n8n, MCPJungle, IdeaBrowser; Models: Anthropic Claude, Ollama local models (gemma4, qwen3, glm4, granite, llama3.1), OmniRoute, OpenRouter; Memory and knowledge: Hindsight, Mnemosyne, Qdrant, Obsidian; Observability: Datadog; Infrastructure: Tailscale, Docker, Infisical, Cloudflare tunnels, Backblaze B2 (rclone), Syncthing; Delivery: Next.js, SQLite, Playwright, GitHub Actions (self-hosted runner); Open source I run or extend: xxOS and Mission Control, Hermes Agent, OpenClaw, OmniRoute, MCPJungle, Qdrant, Infisical, n8n, Ollama
+- Writes a regular LinkedIn series on AI agents and verification, built with a research loop
 - 10 years total experience
 - 6 PE-backed acquisitions managed ($800M+)
 - ERP systems: SyteLine, SAP S/4HANA, QAD
