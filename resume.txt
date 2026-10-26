@@ -11,14 +11,12 @@ Director, Business Operations and AI Enablement. Since 2017: process engineering
 
 STACK I BUILD AND OPERATE
 Multi-vendor by design. Anthropic is one of several model and tool vendors I run.
-Orchestration and agents: Claude Code, Hermes Agent (Nous Research), OpenClaw, OpenCode, n8n, MCPJungle, IdeaBrowser
-Models: Anthropic Claude, Ollama local models (gemma4, qwen3, glm4, granite, llama3.1), OmniRoute, OpenRouter
-Memory and knowledge: Hindsight, Mnemosyne, Qdrant, Obsidian
-Observability: Datadog
-Infrastructure: Tailscale, Docker, Infisical, Cloudflare tunnels, Backblaze B2 (rclone), Syncthing
-Delivery: Next.js, SQLite, Playwright, GitHub Actions (self-hosted runner)
-Open source I run or extend: xxOS and Mission Control, Hermes Agent, OpenClaw, OmniRoute, MCPJungle, Qdrant, Infisical, n8n, Ollama
-I write a regular LinkedIn series on AI agents and verification, built with a research loop.
+Orchestration and agents: Claude Code; Hermes Agent family (gateway, desktop app, dashboard, cron, skills); CrewAI; OpenClaw; OpenCode; n8n; MCPJungle (MCP gateway); IdeaBrowser
+Models: Anthropic Claude; local models on Ollama (gemma4, qwen3, qwen2.5-coder, glm4, granite, llama3.1); OmniRoute and OpenRouter for routing; NVIDIA NIM
+Search and memory: Tavily, Jina and Brave Search APIs; Hindsight; Mnemosyne; Qdrant; Obsidian
+Observability and infrastructure: Datadog; Tailscale; Docker; Infisical (secrets); Cloudflare tunnels; Backblaze B2 (encrypted rclone backups); Syncthing
+Languages and delivery: TypeScript, Python, JavaScript, SQL, shell; Next.js; SQLite; Playwright; GitHub and GitHub Actions on a self-hosted runner
+Open source I run or extend: xxOS and Mission Control, Hermes Agent, OpenClaw, OmniRoute, MCPJungle, Qdrant, Infisical, n8n, Ollama. I write a regular LinkedIn series on AI agents and verification, built with a research loop.
 
 TECHNICAL SKILLS
 AI Automation: Agent Design, Agentic Workflows, Prompt Engineering, Knowledge Base Design, Low-Code Automation, n8n, GoHighLevel, Gemini, Claude, Claude Code, ChatGPT, LangChain, AutoResearch AI

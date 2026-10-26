@@ -187,11 +187,12 @@
       "name": "Stack: Orchestration and agents",
       "keywords": [
         "Claude Code",
-        "Hermes Agent (Nous Research)",
+        "Hermes Agent family (gateway, desktop app, dashboard, cron, skills)",
+        "CrewAI",
         "OpenClaw",
         "OpenCode",
         "n8n",
-        "MCPJungle",
+        "MCPJungle (MCP gateway)",
         "IdeaBrowser"
       ]
     },
@@ -199,14 +200,15 @@
       "name": "Stack: Models",
       "keywords": [
         "Anthropic Claude",
-        "Ollama local models (gemma4, qwen3, glm4, granite, llama3.1)",
-        "OmniRoute",
-        "OpenRouter"
+        "local models on Ollama (gemma4, qwen3, qwen2.5-coder, glm4, granite, llama3.1)",
+        "OmniRoute and OpenRouter for routing",
+        "NVIDIA NIM"
       ]
     },
     {
-      "name": "Stack: Memory and knowledge",
+      "name": "Stack: Search and memory",
       "keywords": [
+        "Tavily, Jina and Brave Search APIs",
         "Hindsight",
         "Mnemosyne",
         "Qdrant",
@@ -214,29 +216,25 @@
       ]
     },
     {
-      "name": "Stack: Observability",
+      "name": "Stack: Observability and infrastructure",
       "keywords": [
-        "Datadog"
-      ]
-    },
-    {
-      "name": "Stack: Infrastructure",
-      "keywords": [
+        "Datadog",
         "Tailscale",
         "Docker",
-        "Infisical",
+        "Infisical (secrets)",
         "Cloudflare tunnels",
-        "Backblaze B2 (rclone)",
+        "Backblaze B2 (encrypted rclone backups)",
         "Syncthing"
       ]
     },
     {
-      "name": "Stack: Delivery",
+      "name": "Stack: Languages and delivery",
       "keywords": [
+        "TypeScript, Python, JavaScript, SQL, shell",
         "Next.js",
         "SQLite",
         "Playwright",
-        "GitHub Actions (self-hosted runner)"
+        "GitHub and GitHub Actions on a self-hosted runner"
       ]
     },
     {
