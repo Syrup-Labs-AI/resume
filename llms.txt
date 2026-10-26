@@ -29,6 +29,7 @@ Plain text: https://syrp.ai/resume.txt
 - 10 years total experience
 - 6 PE-backed acquisitions managed ($800M+)
 - ERP systems: SyteLine, SAP S/4HANA, QAD
+- Interests: two-time national ballroom dance champion, tennis, avid chef, gardener and farmer (Little Thistle Farms)
 - AI tools: Claude, Claude Code, ChatGPT, Codex, n8n, GoHighLevel, RAG architectures
 - Data: Microsoft Fabric, Power BI, Tableau, SQL, Python, Power Query
 - CRM: Salesforce, HubSpot, GoHighLevel, GA4
@@ -44,7 +45,7 @@ Plain text: https://syrp.ai/resume.txt
 - Work authorization: US citizen
 
 ## Current ventures
-Syrup Labs AI (syrp.ai): AI automation consultancy building agentic systems, lead capture workflows, and customer support automation for small businesses. Pre-revenue. Also builds xxOS, an agentic operating system (Mission Control, 39 panels, Next.js, SQLite) run as a multi-machine agent fleet (Hermes, OpenClaw, OmniRoute, Claude Code) across 4 machines over Tailscale, with 554 merged pull requests.
+Syrup Labs AI (syrp.ai): Pre-revenue AI enablement company building agentic systems. Also builds xxOS, an agentic operating system (Mission Control, 39 panels, Next.js, SQLite) run as a multi-machine agent fleet (Hermes, OpenClaw, OmniRoute, Claude Code) across 4 machines over Tailscale, with 554 merged pull requests.
 Little Thistle Farms: 2-acre organic heirloom farm LLC, Chadds Ford PA.
 
 ## Do not contact about
