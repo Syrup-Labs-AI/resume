@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <!-- Machine-readable metadata for AI agents, ATS, and crawlers -->
-  <meta name="description" content="Alan Karp - AI Program Manager. 10 years experience. Greater Philadelphia Area. Open to Director/Sr Manager roles.">
+  <meta name="description" content="Alan Karp - Director, Business Operations and AI Enablement. 10 years experience. Greater Philadelphia Area. Open to Director/Sr Manager roles.">
   <meta name="author" content="Alan Karp">
   <meta name="robots" content="index, follow">
 
   <!-- OpenGraph -->
   <meta property="og:title" content="Alan Karp, Resume">
-  <meta property="og:description" content="AI Program Manager | Agentic Workflows, ERP/MRP, M&amp;A Integration | Greater Philadelphia">
+  <meta property="og:description" content="Director, Business Operations and AI Enablement | Agentic Workflows, ERP/MRP, M&amp;A Integration | Greater Philadelphia">
   <meta property="og:url" content="https://syrp.ai/resume">
   <meta property="og:type" content="profile">
   <meta property="profile:first_name" content="Alan">
@@ -26,7 +26,6 @@
     "name": "Alan Karp",
     "url": "https://syrp.ai/resume",
     "email": "alanjacobkarp@gmail.com",
-    "telephone": "(601) 389-7206",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Chadds Ford",
@@ -34,7 +33,7 @@
       "postalCode": "19317",
       "addressCountry": "US"
     },
-    "jobTitle": "AI Program Manager",
+    "jobTitle": "Director, Business Operations and AI Enablement",
     "description": "AI Program Manager with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems.",
     "sameAs": [
       "https://www.linkedin.com/in/alanjkarp",
@@ -619,14 +618,45 @@
   /* quality gate: 44px tap targets */
   .contact-chip, .vol-link { min-height: 44px; display: inline-flex; align-items: center; box-sizing: border-box; }
 
-  /* quality gate: print fits 2 Letter pages */
+  /* dark mode follows the phone setting */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14111F; --card: #1D1930; --text: #EDEAF7; --text-muted: #B3AEC7; --border: #353053;
+      --off-white: #14111F; --grey-100: #262140; --grey-200: #353053; --grey-400: #8E88A8; --grey-600: #B3AEC7; --grey-900: #F1EEFA;
+      --purple: #A78BFA; --purple-light: #C4B5FD; --purple-faint: #2B2250; --green: #6EE7B7; --green-faint: #12332A;
+    }
+    .contact-chip, .skill-card, .edu-card, .vol-card, .summary { background: var(--card); }
+    .bg-canvas, .bg-grid { opacity: 0.25; }
+  }
+
+  /* print fits 2 Letter pages at readable size, by layout */
   @media print {
-    @page { size: Letter; margin: 0.45in; }
-    body { font-size: 8.4pt; line-height: 1.3; background: #fff; }
+    @page { size: Letter; margin: 0.32in; }
+    body { font-size: 8.5pt; line-height: 1.3; background: #fff; color: #000; }
     .bg-canvas, .bg-grid { display: none !important; }
-    .section, .header { opacity: 1 !important; transform: none !important; animation: none !important; margin-bottom: 8px; }
-    .page { padding: 0; max-width: none; zoom: 0.45; }
-    .contact-chip, .vol-link { min-height: 0; }
+    .section, .header { opacity: 1 !important; transform: none !important; animation: none !important; margin-bottom: 6px; padding-bottom: 0; }
+    .page { padding: 0; max-width: none; }
+    .contact-chip, .vol-link { min-height: 0; padding: 1px 6px; box-shadow: none; }
+    .contact-row { flex-direction: row; gap: 4px; margin-bottom: 4px; }
+    .contact-chip { width: auto; }
+    .page * { font-size: 7.5pt !important; line-height: 1.2 !important; }
+    .name, .name span { font-size: 18pt !important; }
+    .section-label { font-size: 9pt !important; margin-bottom: 3px !important; }
+    .section { margin-bottom: 5px !important; }
+    .skills-grid, .vol-grid { grid-template-columns: repeat(4, 1fr) !important; }
+    .skill-cat, .skill-items, .vol-role, .vol-org, .vol-desc, .edu-degree, .edu-meta, .job-title, .job-company, .job-dates { margin: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; }
+    .job-location { display: none; }
+    .job-header, .job-header > * { margin: 0 !important; }
+    .job-bullets { margin: 1px 0 0 !important; }
+    .edu-card, .vol-card, .cert-tag, .skill-card { padding: 2px 5px !important; margin: 0 !important; }
+    .cert-list { gap: 3px; }
+    .job-header { margin-bottom: 0; }
+    .summary, .skill-card, .edu-card, .vol-card { box-shadow: none; padding: 3px 6px; border-radius: 0; margin: 0; background: #fff; }
+    .skills-grid, .edu-grid, .vol-grid { gap: 3px; grid-template-columns: repeat(3, 1fr); }
+    .job { padding-bottom: 3px; margin-bottom: 3px; }
+    .job-context { display: none; }
+    .job-bullets li { margin-bottom: 0; }
+    .footer { margin-top: 4px; padding-top: 2px; }
   }
 </style>
 </head>
@@ -645,7 +675,7 @@
   <!-- Header -->
   <div class="header">
     <h1 class="name">Alan <span>Karp</span></h1>
-    <div class="label">AI Program Manager</div>
+    <div class="label">Director, Business Operations and AI Enablement</div>
 
     <div class="contact-row">
       <a href="Alan-Karp-Resume-RevG-2026-10-26.pdf" class="contact-chip" download>
@@ -655,10 +685,6 @@
       <a href="mailto:alanjacobkarp@gmail.com" class="contact-chip">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
         alanjacobkarp@gmail.com
-      </a>
-      <a href="tel:6013897206" class="contact-chip">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42a2 2 0 0 1 1.99-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.08 6.08l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        (601) 389-7206
       </a>
       <a href="https://linkedin.com/in/alanjkarp" target="_blank" class="contact-chip">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
