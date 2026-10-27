@@ -10,11 +10,11 @@ PROFESSIONAL OVERVIEW
 AI Program Manager with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems. Founded Syrup Labs AI to build and deploy practical agentic systems, lead capture workflows, and automation infrastructure for small businesses. Previously at DwyerOmega (PE-backed industrial sensors, instrumentation, and semiconductor manufacturer), drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through 6 acquisitions ($800M+). MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC. APICS CSCP.
 
 TECHNICAL SKILLS
-AI Automation: Agentic Workflow Architecture, AI Agent Design, Prompt Engineering, RAG Knowledge Bases, Low-Code Automation, AI Concierge Systems, Lead Capture & Routing, n8n, GoHighLevel, HubSpot, Gemini, Claude, Claude Code, ChatGPT, Codex, AutoResearch AI, Obsidian, Google Workspace Automation
+AI Automation: Agentic Workflow Architecture, AI Agent Design, Prompt Engineering, RAG Knowledge Bases, Low-Code Automation, AI Concierge Systems, Lead Capture & Routing, n8n, HubSpot, Gemini, Claude, Claude Code, ChatGPT, Codex, AutoResearch AI, Obsidian, Google Workspace Automation
 Core Competencies: Enterprise Transformation, Post-Merger Integration (6 acquisitions, $800M+), Program & Project Leadership, ERP/MRP & Enterprise Applications, CRM & MarTech Enablement, Data Platforms & BI, Reporting Governance, Agile & Sprint Planning, Change Management
 ERP & Business Systems: SyteLine, SAP S/4HANA, QAD, Sage, QuickBooks, Workwise, MRM, AMS
 Data & Analytics: Microsoft Fabric, Power BI, Tableau, SQL, Python, R, DAX Studio, KNIME, Power Query
-CRM & MarTech: Salesforce, HubSpot, Hybris, GA4, GoHighLevel
+CRM & MarTech: Salesforce, HubSpot, Hybris, GA4
 Work Management: Jira (Global Admin), Confluence, Agile/Scrum, Notion, Visio, MS Office, Adobe Suite
 
 PROFESSIONAL EXPERIENCE
@@ -24,7 +24,7 @@ AI Program Manager (title of record: AI Automation Consultant) | Feb 2026 - Pres
 AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.
 - Designed and deployed AI concierge and intake systems providing lead tracking, automated follow-up, and analytics visibility.
 - Built parent/subagent architectures with prompt guardrails, FAQ handling, escalation logic, and intent separation.
-- Implemented low-code automation pipelines using GoHighLevel, HubSpot, Google Sheets, Gmail.
+- Implemented low-code automation pipelines using HubSpot, Google Sheets, Gmail.
 - Created live pilot environments including hosted landing pages, QR-based event capture, and end-to-end demo environments.
 - Led full engagement lifecycle: discovery, scope, pricing, prompt iteration, testing, and phased rollout.
 
