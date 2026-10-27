@@ -77,7 +77,11 @@ rule4() {
 # already in index.html are Alan's to rule on and are RECORDED, not refused,
 # so nobody adds an eleventh by accident.
 rule5() {
-  local em base=10
+  # Baseline dropped 10 -> 0 on 2026-10-27, after mc-page-probe found one
+  # of the ten in the <title> of the live page and all ten were removed.
+  # A ratchet set to what it found permits that number forever; Hard
+  # Rule 0 says no em dashes, ever, so zero is the only honest baseline.
+  local em base=0
   em=$(grep -o '—' index.html 2>/dev/null | wc -l)
   if [ "$em" -gt "$base" ]; then
     fail "rule 5: index.html has $em em dashes, $base are Alan's known ones, $((em-base)) are new"
