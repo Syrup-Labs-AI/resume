@@ -628,7 +628,7 @@
 
   /* Print: a plain, recruiter-ready document. Screen view is unchanged. */
   @media print {
-    @page { size: Letter; margin: 0.45in 0.5in; }
+    @page { size: Letter; margin: 0.38in 0.45in; }
     html, body {
       background: #fff !important;
       color: #000 !important;
@@ -675,16 +675,18 @@
     a[href]::after { content: none !important; }
 
     /* Tight vertical rhythm */
-    .header { margin-bottom: 8pt; padding-bottom: 6pt; border-bottom: 1pt solid #000; }
-    .name { font-size: 26pt; margin-bottom: 2pt; letter-spacing: -0.5px; }
+    .header { margin-bottom: 6pt; padding-bottom: 4pt; border-bottom: 1pt solid #000; }
+    .name { font-size: 23pt; margin-bottom: 1pt; letter-spacing: -0.5px; }
     .label { font-size: 10pt; margin-bottom: 6pt; }
     .contact-row { gap: 2pt 14pt; margin-bottom: 6pt; }
     .contact-chip { padding: 0; font-size: 9pt; }
     .contact-chip svg { display: none; }
-    .summary { margin-top: 4pt; padding: 0; max-width: none; font-size: 9.5pt; line-height: 1.38; }
-    .section { margin-bottom: 9pt; }
+    .summary { margin-top: 4pt; padding: 0; max-width: none; font-size: 9pt; line-height: 1.34; }
+    .section { margin-bottom: 5pt; }
+    .section:last-of-type { margin-bottom: 0; }
+    .page, body, html { margin-bottom: 0 !important; padding-bottom: 0 !important; }
     .section-label {
-      font-size: 9pt; margin-bottom: 6pt; padding-bottom: 2pt;
+      font-size: 9pt; margin-bottom: 4pt; padding-bottom: 2pt;
       border-bottom: 0.5pt solid #999;
       break-after: avoid;
     }
@@ -693,17 +695,17 @@
     .skills-grid { display: block; column-count: 2; column-gap: 24pt; }
     .skill-card { padding: 0 0 3pt; break-inside: avoid; display: block; }
     .skill-cat { font-size: 8.5pt; margin-bottom: 1pt; }
-    .skill-items { font-size: 9pt; line-height: 1.3; }
+    .skill-items { font-size: 8.5pt; line-height: 1.28; }
 
     /* Experience */
-    .job { display: block; margin-bottom: 7pt; padding-bottom: 0; border-bottom: none; }
+    .job { display: block; margin-bottom: 4pt; padding-bottom: 0; border-bottom: none; }
     .job-header { margin-bottom: 0; gap: 8pt; flex-wrap: nowrap; }
     .job-company { font-size: 10.5pt; }
     .job-dates { font-size: 9pt; padding: 0; margin-top: 0; }
     .job-title { font-size: 10pt; margin-bottom: 0; }
     .job-location { font-size: 8.5pt; margin-bottom: 3pt; }
-    .job-context { font-size: 9pt; padding: 0; margin-bottom: 2pt; }
-    .job-bullets li { font-size: 9pt; line-height: 1.3; padding: 0.5pt 0 0.5pt 11pt; break-inside: avoid; }
+    .job-context { font-size: 8.5pt; padding: 0; margin-bottom: 2pt; }
+    .job-bullets li { font-size: 8.5pt; line-height: 1.28; padding: 0.5pt 0 0.5pt 11pt; break-inside: avoid; }
     .job-bullets li::before {
       background: #000; width: 3pt; height: 3pt; top: 5pt; border-radius: 50%;
     }
@@ -711,15 +713,17 @@
 
     /* Education, certifications, volunteering */
     .edu-grid, .vol-grid { grid-template-columns: 1fr 1fr; gap: 6pt 24pt; }
-    .edu-card, .vol-card { padding: 0; break-inside: avoid; }
+    .edu-card { padding: 0; break-inside: avoid; }
+    .vol-card { padding: 0; }
     .edu-school, .vol-org { font-size: 10pt; margin-bottom: 0; }
-    .edu-degree, .vol-desc { font-size: 9pt; line-height: 1.3; margin-bottom: 1pt; }
-    .edu-meta, .vol-role { font-size: 8.5pt; margin-bottom: 1pt; }
+    .edu-degree, .vol-desc { font-size: 8.5pt; line-height: 1.28; margin-bottom: 1pt; }
+    .edu-meta { font-size: 8.5pt; margin-bottom: 1pt; }
+    .vol-role { display: none !important; }
     .edu-badge { padding: 0; margin-top: 1pt; font-size: 9pt; font-weight: 400; }
-    .vol-link { margin-top: 2pt; font-size: 8.5pt; }
+    .vol-link { display: none !important; }
     .cert-list { gap: 1pt 14pt; }
-    .cert-tag { padding: 0; font-size: 9.5pt; }
-    .footer { margin-top: 10pt; padding-top: 6pt; border-top: 0.5pt solid #999; font-size: 8pt; }
+    .cert-tag { padding: 0; font-size: 9pt; }
+    .footer { display: none; }
 
     /* The 44px screen floor must not survive into print, or every contact
        link becomes a half-inch tall box and the PDF grows a page. */
@@ -845,16 +849,13 @@
       </div>
       <div class="job-title">Founder, AI Automation Consultant</div>
       <div class="job-location">Chadds Ford, PA</div>
-      <div class="job-context">Founder and AI Automation Consultant. AI automation consultancy building and deploying bootstrapped agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.</div>
+      <div class="job-context">Founder and AI Automation Consultant. Building and operating agentic systems, lead capture workflows and support automation, with Syrup Labs itself as customer zero and a scoped $15K fixed-price pilot in front of a prospective client.</div>
       <ul class="job-bullets">
-        <li>Led end-to-end program delivery for AI automation builds, from scoping through deployment: scoped, priced, built, tested, and rolled out agentic systems with ROI tied to admin time saved and lead capture volume.</li>
         <li>Built and internally validated AI concierge, intake, and lead-routing systems on Syrup Labs' own infrastructure, ahead of a scoped $15K fixed-price pilot with a prospective client.</li>
         <li>Built parent/subagent architectures grounded in business-specific knowledge bases, with prompt guardrails, FAQ handling, escalation logic, and intent separation between support and qualified lead triggers.</li>
-        <li>Implemented low-code automation pipelines using HubSpot, n8n, Google Sheets, and Gmail; eliminating 10+ hours of manual admin per week per deployment.</li>
         <li>Designed and shipped Mission Control, an agent orchestration platform with its own integrations layer and settings panels: fleet and task boards, agent registry, cost and usage telemetry, knowledge search, and operator controls built in TypeScript and Next.js. Now 161 API routes, 276 unit test files, 72 Playwright end-to-end specs and 14 CI workflows, with 566 pull requests merged between August and October 2026.</li>
         <li>Architected and operate the firm's own agent platform: multi-agent orchestration across four machines with self-hosted model inference and routing, a vector-backed memory layer, MCP tool servers, machine-identity secrets rotation, and a CI estate with required checks and a self-hosted runner.</li>
         <li>Built governance into the platform rather than around it: refusing checkers that block unsafe actions, append-only audit receipts for every agent call, consent gates on personal data, and delegation rules that separate the agent doing work from the agent judging it.</li>
-        <li>Translated ambiguous business goals into structured automation roadmaps; managed full engagement lifecycle from discovery through phased rollout and stakeholder onboarding.</li>
         <li>Operate a self-hosted stack of five containerized services continuously since June 2026 at $26 per month. Verified disaster recovery across 841 GB: encrypted backup with a SHA-256 check, two verified snapshots, and a completed cold restore.</li>
         <li>Audited my own research-grading pipeline, found the judge was returning a passing template regardless of input, and closed the pipeline rather than ship it.</li>
       </ul>
@@ -896,32 +897,14 @@
 
     <div class="job">
       <div class="job-header">
-        <div class="job-company">Copperweld</div>
-        <div class="job-dates">Nov 2020 to Apr 2021</div>
+        <div class="job-company">Earlier roles</div>
+        <div class="job-dates">May 2017 to Apr 2021</div>
       </div>
-      <div class="job-title">Production Manager</div>
-      <div class="job-location">Pennsauken, NJ</div>
-      <div class="job-context">Ran a 24/7 plant: 40+ employees across 14+ lines, $3M+ in annualized labor savings from line balancing and reduced overtime. Role ended with the facility closure.</div>
-    </div>
-
-    <div class="job">
-      <div class="job-header">
-        <div class="job-company">Selit North America, Inc.</div>
-        <div class="job-dates">Oct 2018 to Nov 2020</div>
-      </div>
-      <div class="job-title">Process &amp; Manufacturing Engineer</div>
-      <div class="job-location">Plattsburgh, NY</div>
-      <div class="job-context">Spearheaded the greenfield startup of a $20M sister facility near Atlanta, GA, and was day-to-day technical lead for a 30+ FTE team; key contributor to OSHA SHARP certification.</div>
-    </div>
-
-    <div class="job">
-      <div class="job-header">
-        <div class="job-company">Toray Plastics</div>
-        <div class="job-dates">May 2017 to May 2018</div>
-      </div>
-      <div class="job-title">Process Engineer</div>
-      <div class="job-location">Front Royal, VA</div>
-      <div class="job-context">Optimized the foam expansion process for luxury automotive OEMs, raising line speeds by 60 meters per hour on average for $1M+ in annualized revenue; OSHA Star site.</div>
+      <ul class="job-bullets">
+        <li><b>Copperweld</b>, Production Manager, Pennsauken NJ (2020 to 2021): ran a 24/7 plant, 40+ employees across 14+ lines, $3M+ annualized labor savings; role ended with the facility closure.</li>
+        <li><b>Selit North America</b>, Process and Manufacturing Engineer, Plattsburgh NY (2018 to 2020): spearheaded the $20M greenfield sister facility near Atlanta; technical lead for a 30+ FTE team; key contributor to OSHA SHARP certification.</li>
+        <li><b>Toray Plastics</b>, Process Engineer, Front Royal VA (2017 to 2018): raised foam-expansion line speeds 60 m/h on average, $1M+ annualized revenue; OSHA Star site.</li>
+      </ul>
     </div>
 
   </div>
@@ -962,15 +945,15 @@
     <div class="section-label">Volunteering &amp; Entrepreneurial</div>
     <div class="vol-grid">
       <div class="vol-card">
-        <div class="vol-org">National Multiple Sclerosis Society</div>
+        <div class="vol-org">National Multiple Sclerosis Society, Bike MS rider since 2003</div>
         <div class="vol-role">Rider &amp; Volunteer, Bike MS · 2003–Present</div>
-        <div class="vol-desc">22+ year participant in Bike MS; raised more than $30,000 for MS research to date; consistently among top fundraisers.</div>
+        <div class="vol-desc">22+ years riding Bike MS; more than $30,000 raised for MS research, consistently among top fundraisers.</div>
         <a href="https://events.nationalmssociety.org/participants/AlanJKarp" target="_blank" class="vol-link">→ View my fundraising page</a>
       </div>
       <div class="vol-card">
-        <div class="vol-org">Little Thistle Farms</div>
+        <div class="vol-org">Little Thistle Farms, co-founder since 2023</div>
         <div class="vol-role">Co-Founder &amp; Operator · 2023–Present</div>
-        <div class="vol-desc">2-acre organic heirloom farm LLC in Chadds Ford, PA; garlic, flowers, and herbs, plus heirloom canned and pickled goods; 1.1K Instagram following; active local business partnerships.</div>
+        <div class="vol-desc">1-acre farm LLC in Chadds Ford, PA: seed garlic, elderberry and greenhouse seedlings, sold direct and to local stores. littlethistlefarms.com</div>
         <a href="https://littlethistlefarms.com" target="_blank" class="vol-link">→ littlethistlefarms.com</a>
       </div>
     </div>
