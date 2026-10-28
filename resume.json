@@ -21,6 +21,11 @@
         "url": "https://linkedin.com/in/alanjkarp"
       },
       {
+        "network": "GitHub",
+        "username": "Syrup-Labs-AI",
+        "url": "https://github.com/Syrup-Labs-AI"
+      },
+      {
         "network": "Website",
         "username": "syrp.ai",
         "url": "https://syrp.ai"
@@ -133,7 +138,9 @@
       "startDate": "2023",
       "endDate": "2025",
       "score": "4.0 GPA",
-      "courses": ["Beta Gamma Sigma Honor Society"]
+      "courses": [
+        "Beta Gamma Sigma Honor Society"
+      ]
     },
     {
       "institution": "University of Maryland, Baltimore County",
@@ -144,37 +151,106 @@
     }
   ],
   "certificates": [
-    { "name": "APICS Certified Supply Chain Professional (CSCP)" },
-    { "name": "Atlassian Agile Project Management Professional Certificate" },
-    { "name": "Google Cybersecurity Professional Certificate" },
-    { "name": "Lean Six Sigma Green Belt", "issuer": "Drexel University" },
-    { "name": "ISO 9001 Foundation" },
-    { "name": "Value Analysis and Value Engineering", "issuer": "Lean Focus" }
+    {
+      "name": "APICS Certified Supply Chain Professional (CSCP)"
+    },
+    {
+      "name": "Atlassian Agile Project Management Professional Certificate"
+    },
+    {
+      "name": "Google Cybersecurity Professional Certificate"
+    },
+    {
+      "name": "Lean Six Sigma Green Belt",
+      "issuer": "Drexel University"
+    },
+    {
+      "name": "ISO 9001 Foundation"
+    },
+    {
+      "name": "Value Analysis and Value Engineering",
+      "issuer": "Lean Focus"
+    }
   ],
   "skills": [
     {
       "name": "AI Automation",
-      "keywords": ["AI Agent Design", "Agentic Workflow Architecture", "Prompt Engineering", "Knowledge Base Design", "Low-Code Automation", "AI Concierge Systems", "Lead Capture & Routing", "n8n", "Gemini", "Claude", "ChatGPT", "Google Workspace Automation"]
+      "keywords": [
+        "AI Agent Design",
+        "Agentic Workflow Architecture",
+        "Prompt Engineering",
+        "Knowledge Base Design",
+        "Low-Code Automation",
+        "AI Concierge Systems",
+        "Lead Capture & Routing",
+        "n8n",
+        "Gemini",
+        "Claude",
+        "ChatGPT",
+        "Google Workspace Automation"
+      ]
     },
     {
       "name": "Core Competencies",
-      "keywords": ["Enterprise Transformation", "Post-Merger Integration", "Program & Project Leadership", "ERP/MRP & Enterprise Applications", "CRM & MarTech Enablement", "Data Platforms & BI", "Reporting Governance", "Operational ROI from AI", "Agile & Sprint Planning", "Change Management"]
+      "keywords": [
+        "Enterprise Transformation",
+        "Post-Merger Integration",
+        "Program & Project Leadership",
+        "ERP/MRP & Enterprise Applications",
+        "CRM & MarTech Enablement",
+        "Data Platforms & BI",
+        "Reporting Governance",
+        "Operational ROI from AI",
+        "Agile & Sprint Planning",
+        "Change Management"
+      ]
     },
     {
       "name": "ERP & Business Systems",
-      "keywords": ["SyteLine", "SAP S/4HANA", "QAD", "Sage", "QuickBooks", "Workwise", "MRM", "AMS"]
+      "keywords": [
+        "SyteLine",
+        "SAP S/4HANA",
+        "QAD",
+        "Sage",
+        "QuickBooks",
+        "Workwise",
+        "MRM",
+        "AMS"
+      ]
     },
     {
       "name": "Data & Analytics",
-      "keywords": ["Microsoft Fabric", "Power BI", "Tableau", "SQL", "Python", "R", "DAX Studio", "KNIME"]
+      "keywords": [
+        "Microsoft Fabric",
+        "Power BI",
+        "Tableau",
+        "SQL",
+        "Python",
+        "R",
+        "DAX Studio",
+        "KNIME"
+      ]
     },
     {
       "name": "CRM & MarTech",
-      "keywords": ["Salesforce", "Hybris", "GA4"]
+      "keywords": [
+        "Salesforce",
+        "Hybris",
+        "GA4"
+      ]
     },
     {
       "name": "Work Management",
-      "keywords": ["Jira", "Confluence", "Agile", "Scrum", "Notion", "Visio", "MS Office", "Adobe Suite"]
+      "keywords": [
+        "Jira",
+        "Confluence",
+        "Agile",
+        "Scrum",
+        "Notion",
+        "Visio",
+        "MS Office",
+        "Adobe Suite"
+      ]
     }
   ]
 }
