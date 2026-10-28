@@ -632,8 +632,12 @@
     html, body {
       background: #fff !important;
       color: #000 !important;
-      font-size: 9pt;
-      line-height: 1.3;
+      /* 8.2pt, not 9pt. The gate measured 3 Letter pages twice. The first
+         attempt used zoom: 0.92 on .page and changed nothing, because
+         Chromium does not reflow print PAGINATION from zoom: it scales the
+         painted box after layout. Root font size does reflow it. */
+      font-size: 8.2pt;
+      line-height: 1.26;
       min-height: 0;
       overflow: visible;
     }
@@ -645,12 +649,7 @@
       text-shadow: none !important;
     }
     .fade-up, .header { opacity: 1 !important; transform: none !important; }
-    /* One knob, deliberately. The gate measured 3 Letter pages against real
-       main on 2026-10-28 and the spill onto page 3 is small, so a uniform 8
-       percent reduction is enough while keeping every relative size the
-       design already chose. Chasing the same page count across six separate
-       font and margin values is how a print stylesheet stops being readable. */
-    .page { max-width: none; padding: 0; zoom: 0.92; }
+    .page { max-width: none; padding: 0; }
 
     /* Flatten every card and chip: no chrome, no fills */
     .contact-chip, .summary, .skill-card, .edu-card, .vol-card, .cert-tag,
