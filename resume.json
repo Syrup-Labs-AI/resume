@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Alan Karp",
-    "label": "AI Program Manager",
+    "label": "Director, Business Operations and AI Enablement",
     "email": "alanjacobkarp@gmail.com",
     "phone": "601-389-7206",
     "url": "https://syrp.ai",
@@ -30,7 +30,7 @@
   "work": [
     {
       "name": "Syrup Labs AI (syrp.ai)",
-      "position": "AI Program Manager",
+      "position": "AI and Enterprise Transformation Manager",
       "url": "https://syrp.ai",
       "startDate": "2026-02",
       "location": "Chadds Ford, PA",
@@ -38,14 +38,14 @@
       "highlights": [
         "Designed and deployed AI concierge and intake systems including website assistants, event and community signup flows, and structured inquiry routing, providing lead tracking, automated follow-up, and analytics visibility into inquiry volume and source.",
         "Built parent/subagent architectures grounded in business-specific knowledge bases, with prompt guardrails, FAQ handling, escalation logic, and intent separation between general support and qualified lead triggers.",
-        "Implemented low-code automation pipelines using GoHighLevel, Google Sheets, Gmail, and website widgets to capture submissions, trigger notifications, log inquiries, track QR and source campaigns, and route qualified leads into client workflows.",
+        "Implemented low-code automation pipelines using Google Sheets, Gmail, and website widgets to capture submissions, trigger notifications, log inquiries, track QR and source campaigns, and route qualified leads into client workflows.",
         "Created live pilot environments including hosted landing pages, QR-based event capture, AI-assisted customer support flows, and end-to-end demo environments for stakeholder review and client onboarding.",
         "Led full engagement lifecycle: discovery, scope, pricing, prompt iteration, testing, and phased rollout; translated ambiguous business goals into automation roadmaps with ROI tied to admin time saved and lead capture volume."
       ]
     },
     {
       "name": "DwyerOmega",
-      "position": "AI Program Manager",
+      "position": "AI and Enterprise Transformation Manager",
       "startDate": "2024-01",
       "endDate": "2026-02",
       "location": "Chadds Ford, PA",
@@ -154,7 +154,7 @@
   "skills": [
     {
       "name": "AI Automation",
-      "keywords": ["AI Agent Design", "Agentic Workflow Architecture", "Prompt Engineering", "Knowledge Base Design", "Low-Code Automation", "AI Concierge Systems", "Lead Capture & Routing", "n8n", "GoHighLevel", "Gemini", "Claude", "ChatGPT", "Google Workspace Automation"]
+      "keywords": ["AI Agent Design", "Agentic Workflow Architecture", "Prompt Engineering", "Knowledge Base Design", "Low-Code Automation", "AI Concierge Systems", "Lead Capture & Routing", "n8n", "Gemini", "Claude", "ChatGPT", "Google Workspace Automation"]
     },
     {
       "name": "Core Competencies",
@@ -170,7 +170,7 @@
     },
     {
       "name": "CRM & MarTech",
-      "keywords": ["Salesforce", "Hybris", "GA4", "GoHighLevel"]
+      "keywords": ["Salesforce", "Hybris", "GA4"]
     },
     {
       "name": "Work Management",

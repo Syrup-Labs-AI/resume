@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <!-- Machine-readable metadata for AI agents, ATS, and crawlers -->
-  <meta name="description" content="Alan Karp - AI Program Manager. 10 years experience. Greater Philadelphia Area. Open to Director/Sr Manager roles.">
+  <meta name="description" content="Alan Karp - Director, Business Operations and AI Enablement. 10 years experience. Greater Philadelphia Area. Open to Director/Sr Manager roles.">
   <meta name="author" content="Alan Karp">
   <meta name="robots" content="index, follow">
 
   <!-- OpenGraph -->
-  <meta property="og:title" content="Alan Karp — Resume">
-  <meta property="og:description" content="AI Program Manager | Agentic Workflows, ERP/MRP, M&amp;A Integration | Greater Philadelphia">
+  <meta property="og:title" content="Alan Karp, Resume">
+  <meta property="og:description" content="Director, Business Operations and AI Enablement | Agentic Workflows, ERP/MRP, M&amp;A Integration | Greater Philadelphia">
   <meta property="og:url" content="https://syrp.ai/resume">
   <meta property="og:type" content="profile">
   <meta property="profile:first_name" content="Alan">
@@ -34,8 +34,8 @@
       "postalCode": "19317",
       "addressCountry": "US"
     },
-    "jobTitle": "AI Program Manager",
-    "description": "AI Program Manager with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems.",
+    "jobTitle": "Director, Business Operations and AI Enablement",
+    "description": "Director, Business Operations and AI Enablement with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems.",
     "sameAs": [
       "https://www.linkedin.com/in/alanjkarp",
       "https://syrp.ai"
@@ -43,7 +43,7 @@
     "knowsAbout": [
       "AI Automation", "Agentic Workflow Architecture", "Prompt Engineering", "RAG Knowledge Bases",
       "Enterprise Transformation", "Post-Merger Integration", "ERP/MRP", "SyteLine", "SAP S/4HANA",
-      "Microsoft Fabric", "Power BI", "Salesforce", "GoHighLevel", "n8n", "Claude", "Python",
+      "Microsoft Fabric", "Power BI", "Salesforce", "n8n", "Claude", "Python",
       "Jira", "Confluence", "Low-Code Automation", "M&A Integration"
     ],
     "alumniOf": [
@@ -85,7 +85,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alan Karp — Resume</title>
+<title>Alan Karp, Resume</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -616,17 +616,110 @@
     .contact-row { flex-direction: column; gap: 6px; }
     .contact-chip { width: 100%; justify-content: flex-start; }
   }
-  /* quality gate: 44px tap targets */
-  .contact-chip, .vol-link { min-height: 44px; display: inline-flex; align-items: center; box-sizing: border-box; }
+  /* Tap targets: 44px minimum, the phone-usability floor the gate enforces.
+     Measured on main before this line existed: 6 targets under 44px, the
+     contact links at 33px and two arrow links at 20px. */
+  .contact-chip, .vol-link {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
 
-  /* quality gate: print fits 2 Letter pages */
+  /* Print: a plain, recruiter-ready document. Screen view is unchanged. */
   @media print {
-    @page { size: Letter; margin: 0.45in; }
-    body { font-size: 8.4pt; line-height: 1.3; background: #fff; }
-    .bg-canvas, .bg-grid { display: none !important; }
-    .section, .header { opacity: 1 !important; transform: none !important; animation: none !important; margin-bottom: 8px; }
-    .page { padding: 0; max-width: none; zoom: 0.56; }
-    .contact-chip, .vol-link { min-height: 0; }
+    @page { size: Letter; margin: 0.45in 0.5in; }
+    html, body {
+      background: #fff !important;
+      color: #000 !important;
+      font-size: 9pt;
+      line-height: 1.3;
+      min-height: 0;
+      overflow: visible;
+    }
+    .bg-canvas, .bg-grid, .orb { display: none !important; }
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+    .fade-up, .header { opacity: 1 !important; transform: none !important; }
+    .page { max-width: none; padding: 0; }
+
+    /* Flatten every card and chip: no chrome, no fills */
+    .contact-chip, .summary, .skill-card, .edu-card, .vol-card, .cert-tag,
+    .job-dates, .job-context, .edu-badge {
+      background: none !important;
+      border: none !important;
+      border-radius: 0 !important;
+    }
+    .edu-card::before, .header::after, .section-label::after { display: none !important; }
+
+    /* Black text; muted text a dark grey */
+    .name, .name span, .label, .section-label, .job-company, .job-title,
+    .edu-school, .vol-org, .skill-cat, .vol-role, .vol-link, .job-location,
+    .job-dates, .edu-meta, .edu-badge, .footer { color: #000 !important; }
+    .name span {
+      background: none !important;
+      -webkit-text-fill-color: #000 !important;
+      font-weight: 600;
+    }
+    .skill-items, .job-bullets li, .job-context, .edu-degree, .vol-desc,
+    .summary, .contact-chip, .cert-tag { color: #222 !important; }
+    a, a:hover { color: #000 !important; text-decoration: none !important; }
+    a[href]::after { content: none !important; }
+
+    /* Tight vertical rhythm */
+    .header { margin-bottom: 8pt; padding-bottom: 6pt; border-bottom: 1pt solid #000; }
+    .name { font-size: 26pt; margin-bottom: 2pt; letter-spacing: -0.5px; }
+    .label { font-size: 10pt; margin-bottom: 6pt; }
+    .contact-row { gap: 2pt 14pt; margin-bottom: 6pt; }
+    .contact-chip { padding: 0; font-size: 9pt; }
+    .contact-chip svg { display: none; }
+    .summary { margin-top: 4pt; padding: 0; max-width: none; font-size: 9.5pt; line-height: 1.38; }
+    .section { margin-bottom: 9pt; }
+    .section-label {
+      font-size: 9pt; margin-bottom: 6pt; padding-bottom: 2pt;
+      border-bottom: 0.5pt solid #999;
+      break-after: avoid;
+    }
+
+    /* Skills: flat two-column list, no equal-height boxes */
+    .skills-grid { display: block; column-count: 2; column-gap: 24pt; }
+    .skill-card { padding: 0 0 3pt; break-inside: avoid; display: block; }
+    .skill-cat { font-size: 8.5pt; margin-bottom: 1pt; }
+    .skill-items { font-size: 9pt; line-height: 1.3; }
+
+    /* Experience */
+    .job { display: block; margin-bottom: 7pt; padding-bottom: 0; border-bottom: none; }
+    .job-header { margin-bottom: 0; gap: 8pt; flex-wrap: nowrap; }
+    .job-company { font-size: 10.5pt; }
+    .job-dates { font-size: 9pt; padding: 0; margin-top: 0; }
+    .job-title { font-size: 10pt; margin-bottom: 0; }
+    .job-location { font-size: 8.5pt; margin-bottom: 3pt; }
+    .job-context { font-size: 9pt; padding: 0; margin-bottom: 2pt; }
+    .job-bullets li { font-size: 9pt; line-height: 1.3; padding: 0.5pt 0 0.5pt 11pt; break-inside: avoid; }
+    .job-bullets li::before {
+      background: #000; width: 3pt; height: 3pt; top: 5pt; border-radius: 50%;
+    }
+    .job-header, .job-title, .job-location, .job-context { break-after: avoid; }
+
+    /* Education, certifications, volunteering */
+    .edu-grid, .vol-grid { grid-template-columns: 1fr 1fr; gap: 6pt 24pt; }
+    .edu-card, .vol-card { padding: 0; break-inside: avoid; }
+    .edu-school, .vol-org { font-size: 10pt; margin-bottom: 0; }
+    .edu-degree, .vol-desc { font-size: 9pt; line-height: 1.3; margin-bottom: 1pt; }
+    .edu-meta, .vol-role { font-size: 8.5pt; margin-bottom: 1pt; }
+    .edu-badge { padding: 0; margin-top: 1pt; font-size: 9pt; font-weight: 400; }
+    .vol-link { margin-top: 2pt; font-size: 8.5pt; }
+    .cert-list { gap: 1pt 14pt; }
+    .cert-tag { padding: 0; font-size: 9.5pt; }
+    .footer { margin-top: 10pt; padding-top: 6pt; border-top: 0.5pt solid #999; font-size: 8pt; }
+
+    /* The 44px screen floor must not survive into print, or every contact
+       link becomes a half-inch tall box and the PDF grows a page. */
+    .contact-chip, .vol-link { min-height: 0; display: inline; }
   }
 </style>
 </head>
@@ -645,7 +738,7 @@
   <!-- Header -->
   <div class="header">
     <h1 class="name">Alan <span>Karp</span></h1>
-    <div class="label">AI Program Manager</div>
+    <div class="label">Director, Business Operations and AI Enablement</div>
 
     <div class="contact-row">
       <a href="mailto:alanjacobkarp@gmail.com" class="contact-chip">
@@ -671,7 +764,7 @@
     </div>
 
     <div class="summary">
-      AI Program Manager with 10 years driving enterprise transformation at PE-backed manufacturing platforms. At DwyerOmega, led cross-functional program execution across ERP/MRP, AMS, CRM/MarTech, and enterprise BI through 6 acquisitions ($800M+), reporting to PE stakeholders and executive leadership throughout. Currently at Syrup Labs AI, building and deploying agentic AI systems, lead capture workflows, and automation infrastructure for small businesses, translating messy operational realities into structured, repeatable automation programs. Manufacturing specialist: ERP/MRP integration, M&A consolidation, and AI-assisted knowledge management across industrial operations. MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC.
+      Director of Business Operations and AI Enablement with 10 years driving enterprise transformation at PE-backed manufacturing platforms. At DwyerOmega, led cross-functional program execution across ERP/MRP, AMS, CRM/MarTech, and enterprise BI through 6 acquisitions ($800M+), reporting to PE stakeholders and executive leadership throughout. Currently at Syrup Labs AI, building and deploying agentic AI systems, lead capture workflows, and automation infrastructure for small businesses, translating messy operational realities into structured, repeatable automation programs. Manufacturing specialist: ERP/MRP integration, M&A consolidation, and AI-assisted knowledge management across industrial operations. MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC.
     </div>
   </div>
 
@@ -681,7 +774,19 @@
     <div class="skills-grid">
       <div class="skill-card">
         <div class="skill-cat">AI Automation</div>
-        <div class="skill-items">Agent Design, Agentic Workflows, Prompt Engineering, Knowledge Base Design, Low-Code Automation, n8n, GoHighLevel, Gemini, Claude, ChatGPT, LangChain, AutoResearch AI</div>
+        <div class="skill-items">Agent Design, Agentic Workflows, Multi-Agent Orchestration, Delegation Frameworks, Prompt, Context &amp; Intent Engineering, Knowledge Base Design, Model Context Protocol (MCP), Claude Agent SDK, Crew.ai, Hermes Agent, OpenClaw, Low-Code Automation, n8n, Gemini, Claude, ChatGPT, LangChain, AutoResearch AI</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-cat">AI Infrastructure &amp; Platform</div>
+        <div class="skill-items">Self-Hosted LLM Inference (Ollama), Model Routing &amp; Gateways (OmniRoute, OpenRouter, Nous Research), Vector Databases (Qdrant), RAG Pipelines, MCP Server Operations, Agent Memory Architecture, Secrets Management &amp; Machine Identity (Infisical), AI Governance, ROI &amp; Returns Modeling for Agent Workloads</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-cat">Platform Engineering &amp; DevOps</div>
+        <div class="skill-items">DigitalOcean, Tailscale Mesh Networking, Docker &amp; Docker Desktop, Linux/systemd, WSL Ubuntu, Windows Server Administration, CI/CD (GitHub Actions, self-hosted runners, CodeQL, OSV), Branch Protection &amp; Required Checks, Git Worktrees, Playwright Automation &amp; Visual QA, TrueNAS, Backblaze B2</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-cat">Development &amp; Structured Authoring</div>
+        <div class="skill-items">TypeScript, Python, PowerShell, Bash, SQL, React, Next.js, Vite, Application Development, UI/UX Design, HTML Landing Pages &amp; Promotions, JSON, YAML, Front Matter Schema Design, Stripe, Obsidian Vault Engineering</div>
       </div>
       <div class="skill-card">
         <div class="skill-cat">ERP &amp; Business Systems</div>
@@ -693,7 +798,7 @@
       </div>
       <div class="skill-card">
         <div class="skill-cat">CRM &amp; MarTech</div>
-        <div class="skill-items">Salesforce, HubSpot, Hybris, GA4, GoHighLevel</div>
+        <div class="skill-items">Salesforce, HubSpot, Hybris, GA4</div>
       </div>
       <div class="skill-card">
         <div class="skill-cat">Program Management</div>
@@ -713,17 +818,22 @@
     <div class="job">
       <div class="job-header">
         <div class="job-company">Syrup Labs AI (syrp.ai)</div>
-        <div class="job-dates">Feb 2026 — Present</div>
+        <div class="job-dates">Feb 2026 to Present</div>
       </div>
-      <div class="job-title">AI Program Manager</div>
+      <div class="job-title">Founder, AI Automation Consultant</div>
       <div class="job-location">Chadds Ford, PA</div>
-      <div class="job-context">Title of record: AI Automation Consultant. AI automation consultancy building and deploying bootstrapped agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.</div>
+      <div class="job-context">Founder and AI Automation Consultant. AI automation consultancy building and deploying bootstrapped agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.</div>
       <ul class="job-bullets">
         <li>Led end-to-end program delivery for AI automation builds, from scoping through deployment: scoped, priced, built, tested, and rolled out agentic systems with ROI tied to admin time saved and lead capture volume.</li>
         <li>Built and internally validated AI concierge, intake, and lead-routing systems on Syrup Labs' own infrastructure, ahead of a scoped $15K fixed-price pilot with a prospective client.</li>
         <li>Built parent/subagent architectures grounded in business-specific knowledge bases, with prompt guardrails, FAQ handling, escalation logic, and intent separation between support and qualified lead triggers.</li>
-        <li>Implemented low-code automation pipelines using GoHighLevel, HubSpot, n8n, Google Sheets, and Gmail; eliminating 10+ hours of manual admin per week per deployment.</li>
+        <li>Implemented low-code automation pipelines using HubSpot, n8n, Google Sheets, and Gmail; eliminating 10+ hours of manual admin per week per deployment.</li>
+        <li>Designed and shipped Mission Control, an agent orchestration platform with its own integrations layer and settings panels: fleet and task boards, agent registry, cost and usage telemetry, knowledge search, and operator controls built in TypeScript and Next.js. Now 161 API routes, 276 unit test files, 72 Playwright end-to-end specs and 14 CI workflows, with 566 pull requests merged between August and October 2026.</li>
+        <li>Architected and operate the firm's own agent platform: multi-agent orchestration across four machines with self-hosted model inference and routing, a vector-backed memory layer, MCP tool servers, machine-identity secrets rotation, and a CI estate with required checks and a self-hosted runner.</li>
+        <li>Built governance into the platform rather than around it: refusing checkers that block unsafe actions, append-only audit receipts for every agent call, consent gates on personal data, and delegation rules that separate the agent doing work from the agent judging it.</li>
         <li>Translated ambiguous business goals into structured automation roadmaps; managed full engagement lifecycle from discovery through phased rollout and stakeholder onboarding.</li>
+        <li>Operate a self-hosted stack of five containerized services continuously since June 2026 at $26 per month. Verified disaster recovery across 841 GB: encrypted backup with a SHA-256 check, two verified snapshots, and a completed cold restore.</li>
+        <li>Audited my own research-grading pipeline, found the judge was returning a passing template regardless of input, and closed the pipeline rather than ship it.</li>
       </ul>
     </div>
 
@@ -732,11 +842,11 @@
         <div class="job-company">DwyerOmega</div>
       </div>
       <div class="job-header">
-        <div class="job-title">AI Program Manager</div>
-        <div class="job-dates">Jan 2024 — Feb 2026</div>
+        <div class="job-title">AI and Enterprise Transformation Manager</div>
+        <div class="job-dates">Jan 2024 to Feb 2026</div>
       </div>
       <div class="job-location">Chadds Ford, PA</div>
-      <div class="job-context">Title of record: AI &amp; Enterprise Transformation Manager. PE-backed industrial sensors, instrumentation, and semiconductor manufacturer; enterprise transformation spanning ERP/MRP, AMS, CRM/MarTech, and enterprise BI across Operations, Finance, Commercial, IT, Supply Chain, and PE stakeholders.</div>
+      <div class="job-context">AI and Enterprise Transformation Manager. PE-backed industrial sensors, instrumentation, and semiconductor manufacturer; enterprise transformation spanning ERP/MRP, AMS, CRM/MarTech, and enterprise BI across Operations, Finance, Commercial, IT, Supply Chain, and PE stakeholders.</div>
       <ul class="job-bullets">
         <li>Led AI and enterprise transformation programs across 6 acquisitions ($800M+), integrating ERP/MRP (SAP S/4HANA, SyteLine, QAD), AMS, CRM/MarTech, and enterprise BI while reporting directly to PE stakeholders and C-suite leadership.</li>
         <li>Applied AI and large language models across operational workflows including documentation generation, requirements analysis, data reconciliation automation, and vendor performance reporting, delivered at scale across post-merger integration environments.</li>
@@ -749,7 +859,7 @@
       </ul>
       <div class="job-header" style="margin-top: 20px;">
         <div class="job-title">Senior Automation Engineer</div>
-        <div class="job-dates">Apr 2021 — Jan 2024</div>
+        <div class="job-dates">Apr 2021 to Jan 2024</div>
       </div>
       <div class="job-location">Swedesboro, NJ</div>
       <div class="job-context">Automation, analytics, and continuous improvement in PE-backed sensor and wire manufacturing; 3 consecutive Top Performer of the Year awards.</div>
@@ -764,7 +874,7 @@
     <div class="job">
       <div class="job-header">
         <div class="job-company">Copperweld</div>
-        <div class="job-dates">Nov 2020 — Apr 2021</div>
+        <div class="job-dates">Nov 2020 to Apr 2021</div>
       </div>
       <div class="job-title">Production Manager</div>
       <div class="job-location">Pennsauken, NJ</div>
@@ -778,7 +888,7 @@
     <div class="job">
       <div class="job-header">
         <div class="job-company">Selit North America, Inc.</div>
-        <div class="job-dates">Oct 2018 — Nov 2020</div>
+        <div class="job-dates">Oct 2018 to Nov 2020</div>
       </div>
       <div class="job-title">Process &amp; Manufacturing Engineer</div>
       <div class="job-location">Plattsburgh, NY</div>
@@ -792,7 +902,7 @@
     <div class="job">
       <div class="job-header">
         <div class="job-company">Toray Plastics</div>
-        <div class="job-dates">May 2017 — May 2018</div>
+        <div class="job-dates">May 2017 to May 2018</div>
       </div>
       <div class="job-title">Process Engineer</div>
       <div class="job-location">Front Royal, VA</div>
@@ -829,9 +939,9 @@
       <span class="cert-tag">APICS CSCP</span>
       <span class="cert-tag">Atlassian Agile Project Management Professional</span>
       <span class="cert-tag">Google Cybersecurity Professional</span>
-      <span class="cert-tag">Lean Six Sigma Green Belt — Drexel University</span>
+      <span class="cert-tag">Lean Six Sigma Green Belt, Drexel University</span>
       <span class="cert-tag">ISO 9001 Foundation</span>
-      <span class="cert-tag">Value Analysis &amp; Value Engineering — Lean Focus</span>
+      <span class="cert-tag">Value Analysis &amp; Value Engineering, Lean Focus</span>
     </div>
   </div>
 
@@ -855,7 +965,7 @@
   </div>
 
   <div class="footer">
-    syrp.ai/resume &nbsp;·&nbsp; last updated August 26, 2026
+    syrp.ai/resume &nbsp;·&nbsp; last updated October 27, 2026
   </div>
 
 </div>
