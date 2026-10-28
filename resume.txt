@@ -27,6 +27,15 @@ Data & Analytics: Microsoft Fabric, Power BI, Tableau, SQL, Python, R, DAX Studi
 CRM & MarTech: Salesforce, HubSpot, Hybris, GA4, GoHighLevel
 Program Management: Jira (Global Admin), Confluence, Agile, Scrum, Lean Six Sigma, DMAIC, Hoshin Kanri, Post-Merger Integration, Change Management
 Work Management: Notion, Visio, MS Office, Adobe Suite, draw.io, SOLIDWORKS
+Director of Business Operations and AI Enablement with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems. Founded Syrup Labs AI to build and deploy practical agentic systems, lead capture workflows, and automation infrastructure for small businesses. Previously at DwyerOmega (PE-backed industrial sensors, instrumentation, and semiconductor manufacturer), drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through 6 acquisitions ($800M+). MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC. APICS CSCP.
+
+TECHNICAL SKILLS
+AI Automation: Agentic Workflow Architecture, AI Agent Design, Prompt Engineering, RAG Knowledge Bases, Low-Code Automation, AI Concierge Systems, Lead Capture & Routing, n8n, HubSpot, Gemini, Claude, Claude Code, ChatGPT, Codex, AutoResearch AI, Obsidian, Google Workspace Automation
+Core Competencies: Enterprise Transformation, Post-Merger Integration (6 acquisitions, $800M+), Program & Project Leadership, ERP/MRP & Enterprise Applications, CRM & MarTech Enablement, Data Platforms & BI, Reporting Governance, Agile & Sprint Planning, Change Management
+ERP & Business Systems: SyteLine, SAP S/4HANA, QAD, Sage, QuickBooks, Workwise, MRM, AMS
+Data & Analytics: Microsoft Fabric, Power BI, Tableau, SQL, Python, R, DAX Studio, KNIME, Power Query
+CRM & MarTech: Salesforce, HubSpot, Hybris, GA4
+Work Management: Jira (Global Admin), Confluence, Agile/Scrum, Notion, Visio, MS Office, Adobe Suite
 
 PROFESSIONAL EXPERIENCE
 
@@ -53,6 +62,25 @@ Title of record: AI & Enterprise Transformation Manager. PE-backed industrial se
 - Served as Global Admin for Jira and Confluence; deployed AI-assisted knowledge management in Confluence to improve documentation quality and governance scalability.
 - Led greenfield implementation planning for enterprise AMS and Microsoft Fabric; coordinated cross-functional discovery, harmonization, and planning with external consulting partner.
 - Built repeatable data-forensics workflow using Power Query, DAX Studio, and KNIME to reconcile large datasets and validate executive reporting when data integrity was disputed.
+Director, Business Operations and AI Enablement (title of record: AI Automation Consultant) | Feb 2026 - Present
+AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.
+- Designed and deployed AI concierge and intake systems providing lead tracking, automated follow-up, and analytics visibility.
+- Built parent/subagent architectures with prompt guardrails, FAQ handling, escalation logic, and intent separation.
+- Implemented low-code automation pipelines using HubSpot, Google Sheets, Gmail.
+- Created live pilot environments including hosted landing pages, QR-based event capture, and end-to-end demo environments.
+- Led full engagement lifecycle: discovery, scope, pricing, prompt iteration, testing, and phased rollout.
+
+DWYEROMEGA | Chadds Ford, PA
+Director, Business Operations and AI Enablement (title of record: AI & Enterprise Transformation Manager) | Jan 2024 - Feb 2026
+PE-backed industrial sensors, instrumentation, and semiconductor manufacturer; enterprise transformation spanning ERP/MRP, AMS, CRM/MarTech, and enterprise BI.
+- Managed execution for 6 acquisitions and consolidations valued at $800M+ into core ERP/MRP landscape.
+- Owned enterprise reporting governance across global orders, sales, pricing, quality, and inventory.
+- Oversaw 15-20 resource offshore vendor team.
+- Global Admin for Jira and Confluence; deployed AI-assisted knowledge management in Confluence.
+- Applied AI and LLMs across documentation generation, requirements analysis, and data reconciliation workflows.
+- Led greenfield AMS and Microsoft Fabric implementation planning.
+- Integrated Salesforce, HubSpot, Hybris, GA4 with ERP, AMS, and Fabric.
+- Built data-forensics workflow using Power Query, DAX Studio, and KNIME.
 
 DWYEROMEGA | Swedesboro, NJ
 Senior Automation Engineer | Apr 2021 to Jan 2024
