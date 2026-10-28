@@ -645,7 +645,12 @@
       text-shadow: none !important;
     }
     .fade-up, .header { opacity: 1 !important; transform: none !important; }
-    .page { max-width: none; padding: 0; }
+    /* One knob, deliberately. The gate measured 3 Letter pages against real
+       main on 2026-10-28 and the spill onto page 3 is small, so a uniform 8
+       percent reduction is enough while keeping every relative size the
+       design already chose. Chasing the same page count across six separate
+       font and margin values is how a print stylesheet stops being readable. */
+    .page { max-width: none; padding: 0; zoom: 0.92; }
 
     /* Flatten every card and chip: no chrome, no fills */
     .contact-chip, .summary, .skill-card, .edu-card, .vol-card, .cert-tag,
