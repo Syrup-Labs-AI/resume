@@ -21,11 +21,6 @@
         "url": "https://linkedin.com/in/alanjkarp"
       },
       {
-        "network": "GitHub",
-        "username": "Syrup-Labs-AI",
-        "url": "https://github.com/Syrup-Labs-AI"
-      },
-      {
         "network": "Website",
         "username": "syrp.ai",
         "url": "https://syrp.ai"
@@ -85,11 +80,8 @@
       "startDate": "2020-11",
       "endDate": "2021-04",
       "location": "Pennsauken, NJ",
-      "summary": "Operations leadership across 40+ employees and 14+ production lines in a 24/7 high-mix wire and cable facility. Role ended due to facility closure following corporate reorganization.",
-      "highlights": [
-        "Managed 40+ employees across 14+ production lines in a 24/7 environment, driving safety, quality, and delivery performance.",
-        "Redesigned workflows, staffing, and scheduling to improve throughput and reduce scrap, contributing to $3M+ in annualized labor savings through line balancing and reduced overtime."
-      ]
+      "summary": "Ran a 24/7 plant: 40+ employees across 14+ lines, $3M+ in annualized labor savings from line balancing and reduced overtime. Role ended with the facility closure.",
+      "highlights": []
     },
     {
       "name": "Selit North America, Inc.",
@@ -97,11 +89,8 @@
       "startDate": "2018-10",
       "endDate": "2020-11",
       "location": "Plattsburgh, NY",
-      "summary": "24/7 foam extrusion and recycling operations for flooring OEM underlayment. Key contributor to OSHA SHARP certification.",
-      "highlights": [
-        "Spearheaded startup of a $20M sister facility near Atlanta, GA, including full plant design, equipment procurement, process development, and production line commissioning from greenfield through initial production.",
-        "Served as day-to-day technical lead for a 30+ FTE production team across safety, quality, process, and customer issues."
-      ]
+      "summary": "Spearheaded the greenfield startup of a $20M sister facility near Atlanta, GA, and was day-to-day technical lead for a 30+ FTE team; key contributor to OSHA SHARP certification.",
+      "highlights": []
     },
     {
       "name": "Toray Plastics",
@@ -109,10 +98,8 @@
       "startDate": "2017-05",
       "endDate": "2018-05",
       "location": "Front Royal, VA",
-      "summary": "Foam extrusion for global luxury automotive OEMs; OSHA Star-certified site.",
-      "highlights": [
-        "Optimized final stages of the foam expansion process, increasing line speeds by an average of 60 meters per hour and generating $1M+ in annualized revenue impact."
-      ]
+      "summary": "Optimized the foam expansion process for luxury automotive OEMs, raising line speeds by 60 meters per hour on average for $1M+ in annualized revenue; OSHA Star site.",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -120,7 +107,7 @@
       "organization": "National Multiple Sclerosis Society",
       "position": "Rider and Volunteer, Bike MS",
       "startDate": "2003-01",
-      "summary": "22+ year participant in Bike MS; raised more than $30,000 for MS research to date; consistently among top fundraisers."
+      "summary": "22+ years riding Bike MS; more than $30,000 raised for MS research, consistently among top fundraisers."
     },
     {
       "organization": "Little Thistle Farms",

@@ -1,0 +1,57 @@
+name: quality
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'resume.json'
+      - 'resume.txt'
+      - 'llms.txt'
+      - 'tests/**'
+      - '.github/workflows/quality.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'resume.json'
+      - 'resume.txt'
+      - 'llms.txt'
+      - 'tests/**'
+      - '.github/workflows/quality.yml'
+permissions:
+  contents: read
+jobs:
+  quality:
+    # Billed minutes are a real constraint here: GitHub Actions spend reached
+    # $107 of $110 and roughly $1,000 went in three months. The standing rule
+    # is that CI runs on the Phobos self-hosted runner at $0.
+    #
+    # It is NOT hard-wired to Phobos, because measured 2026-10-28 all three
+    # Phobos runners read `offline` and they are registered on the xxOS repo,
+    # not on this one. Hard-wiring would queue every pull request against a
+    # runner that cannot answer, which looks like a hang and is really an
+    # unregistered door.
+    #
+    # So: set the repo variable CI_RUNNER to `phobos` once a runner is online
+    # AND registered here, and every workflow run moves to $0 with no code
+    # change. Unset, it stays on GitHub's runner and still works today.
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.62.1
+          npx playwright install --with-deps chromium
+      - name: Quality spec
+        run: node tests/quality.spec.js
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: resume-screenshots
+          path: tests/screenshots/*.png
+          if-no-files-found: warn
