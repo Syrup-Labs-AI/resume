@@ -106,6 +106,23 @@ rule1() {
   fi
 }
 
+# ---------------------------------------------------------------- RULE 6
+# MASTER-FACTS.md, SUPERSEDING RULING, Alan 2026-10-27: "SpaceX and the 50K UL
+# wires are OUT of every resume artifact. Both now read 0." SpaceX was a
+# DwyerOmega customer, not his build. The facts file is the source; this rule
+# is how the site is tied to it. Add a line here when a fact is ruled out.
+rule6() {
+  local bad=0 s f
+  for s in 'SpaceX' '50K UL' '50,000+ UL' 'UL wires'; do
+    for f in index.html resume.json resume.txt; do
+      if grep -qi -- "$s" "$f" 2>/dev/null; then
+        fail "rule 6: $f says '$s', ruled out in MASTER-FACTS 2026-10-27"; bad=1
+      fi
+    done
+  done
+  [ "$bad" -eq 0 ] && ok "rule 6: nothing MASTER-FACTS ruled out appears"
+}
+
 # ---------------------------------------------------------------- selftest
 # A check that has never refused anything is indistinguishable from a broken
 # one, so each control is tripped on purpose in a scratch copy.
@@ -135,6 +152,12 @@ selftest() {
   ( cd "$tmp" && printf '\n<!-- %s -->\n' "$(printf '———')" >> index.html
     bash check-rules.sh >/dev/null 2>&1 ); [ $? -eq 1 ] && r=1 || r=0
   t "rule 5 refuses a new em dash" "$r"
+  cp index.html "$tmp/index.html"
+
+  # RULE 6: plant a fact MASTER-FACTS ruled out.
+  ( cd "$tmp" && printf '\nBuilt harnesses for SpaceX\n' >> resume.txt
+    bash check-rules.sh >/dev/null 2>&1 ); [ $? -eq 1 ] && r=1 || r=0
+  t "rule 6 refuses a ruled-out fact" "$r"
 
   rm -rf "$tmp"
   echo
@@ -146,7 +169,7 @@ if [ "${1:-}" = "--selftest" ]; then selftest; exit $?; fi
 if [ -n "${1:-}" ]; then echo "check-rules: unknown option $1" >&2; exit 2; fi
 
 echo "check-rules, enforcing this repo's CLAUDE.md:"
-rule1; rule2; rule4; rule5
+rule1; rule2; rule4; rule5; rule6
 echo
 if [ "$FAILED" -eq 1 ]; then
   echo "REFUSED. A rule in CLAUDE.md was broken. Fix the files, not the check."
