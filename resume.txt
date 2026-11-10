@@ -4,10 +4,10 @@ Chadds Ford, PA 19317 | Greater Philadelphia Area
 (601) 389-7206 | alanjacobkarp@gmail.com
 linkedin.com/in/alanjkarp | github.com/Syrup-Labs-AI | syrp.ai/resume
 
-SEEKING: Director or Senior Manager level roles in AI program management, enterprise transformation, business operations, or AI operations. Remote or hybrid. Greater Philadelphia area.
+SEEKING: AI program management and enterprise transformation roles. Remote or hybrid. Greater Philadelphia area.
 
 PROFESSIONAL OVERVIEW
-AI Program Manager with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems. Founded Syrup Labs AI to build and deploy practical agentic systems, lead capture workflows, and automation infrastructure for small businesses. Previously at DwyerOmega (PE-backed industrial sensors, instrumentation, and semiconductor manufacturer), drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through 6 acquisitions ($800M+). MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC. APICS CSCP.
+AI Program Manager with 10 years of experience across PE-backed industrial platforms, manufacturing operations, and agentic AI systems. Title of record: AI and Enterprise Transformation Manager (DwyerOmega). Founded Syrup Labs AI to build and deploy practical agentic systems, lead capture workflows, and automation infrastructure for small businesses. Previously at DwyerOmega (PE-backed industrial sensors, instrumentation, and semiconductor manufacturer), drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through 6 acquisitions ($800M+). MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC. APICS CSCP.
 
 TECHNICAL SKILLS
 AI Automation: Agentic Workflow Architecture, AI Agent Design, Prompt Engineering, RAG Knowledge Bases, Low-Code Automation, AI Concierge Systems, Lead Capture & Routing, n8n, HubSpot, Gemini, Claude, Claude Code, ChatGPT, Codex, AutoResearch AI, Obsidian, Google Workspace Automation
@@ -20,13 +20,15 @@ Work Management: Jira (Global Admin), Confluence, Agile/Scrum, Notion, Visio, MS
 PROFESSIONAL EXPERIENCE
 
 SYRUP LABS AI (SYRP.AI) | Chadds Ford, PA
-Founder, AI Automation Consultant | Feb 2026 - Present
-AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses.
-- Designed and deployed AI concierge and intake systems providing lead tracking, automated follow-up, and analytics visibility.
+AI Automation Consultant | Feb 2026 - Present
+AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Pre-revenue.
+- Built and internally validated AI concierge, intake, and lead-routing systems on Syrup Labs' own infrastructure.
 - Built parent/subagent architectures with prompt guardrails, FAQ handling, escalation logic, and intent separation.
 - Implemented low-code automation pipelines using HubSpot, Google Sheets, Gmail.
 - Created live pilot environments including hosted landing pages, QR-based event capture, and end-to-end demo environments.
-- Led full engagement lifecycle: discovery, scope, pricing, prompt iteration, testing, and phased rollout.
+- Ran the full build lifecycle on Syrup Labs' own infrastructure: scope, prompt iteration, testing, and phased rollout.
+- Directed AI agents to build Mission Control, an agent orchestration platform based on the open-source builderz-labs/mission-control, with its own integrations layer and settings panels: fleet and task boards, agent registry, cost and usage telemetry, knowledge search, and operator controls built in TypeScript and Next.js.
+- Stood up a self-hosted stack on DigitalOcean in June 2026 and tested backup and restore in July 2026 (encrypted SHA-256-checked copy, DigitalOcean snapshot verified twice, cold restore passed; gaps found).
 
 DWYEROMEGA | Chadds Ford, PA
 AI and Enterprise Transformation Manager | Jan 2024 - Feb 2026
@@ -44,7 +46,7 @@ DWYEROMEGA | Swedesboro, NJ
 Senior Automation Engineer | Apr 2021 - Jan 2024
 Automation, analytics, and continuous improvement in PE-backed sensor and wire manufacturing.
 - Designed and executed $2M+ in automation and robotics-driven capital projects.
-- Reduced on-hand inventory by 60%+ across a $20M+ inventory base.
+- Reduced on-hand inventory by more than 60% across a $20M+ inventory base.
 - Led Lean and continuous improvement initiatives including Kaizen events.
 - Built KPI dashboards for operations, engineering, and supply chain.
 

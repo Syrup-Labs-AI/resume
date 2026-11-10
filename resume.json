@@ -6,7 +6,7 @@
     "email": "alanjacobkarp@gmail.com",
     "phone": "601-389-7206",
     "url": "https://syrp.ai",
-    "summary": "Transformation and integration leader with a background spanning manufacturing, enterprise systems, analytics, and AI automation. Founded Syrup Labs AI (syrp.ai) to translate operational experience into applied AI, delivering agentic concierge systems, lead capture workflows, and automation infrastructure for small and local businesses. Previously at DwyerOmega, drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through six acquisitions ($800M+), while implementing AI-enabled knowledge management to improve governance at scale. B.S. Chemical Engineering (UMBC) and MBA (Villanova: Strategy, Analytics, AI/ML). Strong in ambiguous environments requiring structure, stakeholder alignment, technical problem solving, and follow-through.",
+    "summary": "Title of record: AI and Enterprise Transformation Manager (DwyerOmega). Transformation and integration leader with a background spanning manufacturing, enterprise systems, analytics, and AI automation. Founded Syrup Labs AI (syrp.ai) to translate operational experience into applied AI, delivering agentic concierge systems, lead capture workflows, and automation infrastructure for small and local businesses. Previously at DwyerOmega, drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through six acquisitions ($800M+), while implementing AI-enabled knowledge management to improve governance at scale. B.S. Chemical Engineering (UMBC) and MBA (Villanova: Strategy, Analytics, AI/ML). Strong in ambiguous environments requiring structure, stakeholder alignment, technical problem solving, and follow-through.",
     "location": {
       "city": "Chadds Ford",
       "region": "PA",
@@ -30,17 +30,19 @@
   "work": [
     {
       "name": "Syrup Labs AI (syrp.ai)",
-      "position": "Founder, AI Automation Consultant",
+      "position": "AI Automation Consultant",
       "url": "https://syrp.ai",
       "startDate": "2026-02",
       "location": "Chadds Ford, PA",
-      "summary": "AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses.",
+      "summary": "AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Pre-revenue.",
       "highlights": [
-        "Designed and deployed AI concierge and intake systems including website assistants, event and community signup flows, and structured inquiry routing, providing lead tracking, automated follow-up, and analytics visibility into inquiry volume and source.",
+        "Built and internally validated AI concierge, intake, and lead-routing systems on Syrup Labs' own infrastructure.",
         "Built parent/subagent architectures grounded in business-specific knowledge bases, with prompt guardrails, FAQ handling, escalation logic, and intent separation between general support and qualified lead triggers.",
-        "Implemented low-code automation pipelines using Google Sheets, Gmail, and website widgets to capture submissions, trigger notifications, log inquiries, track QR and source campaigns, and route qualified leads into client workflows.",
-        "Created live pilot environments including hosted landing pages, QR-based event capture, AI-assisted customer support flows, and end-to-end demo environments for stakeholder review and client onboarding.",
-        "Led full engagement lifecycle: discovery, scope, pricing, prompt iteration, testing, and phased rollout; translated ambiguous business goals into automation roadmaps with ROI tied to admin time saved and lead capture volume."
+        "Implemented low-code automation pipelines using Google Sheets, Gmail, and website widgets to capture submissions, trigger notifications, log inquiries, track QR and source campaigns, and route qualified leads on Syrup Labs' own infrastructure.",
+        "Created live pilot environments including hosted landing pages, QR-based event capture, AI-assisted customer support flows, and end-to-end demo environments.",
+        "Ran the full build lifecycle on Syrup Labs' own infrastructure: scope, prompt iteration, testing, and phased rollout.",
+        "Directed AI agents to build Mission Control, an agent orchestration platform based on the open-source builderz-labs/mission-control, with its own integrations layer and settings panels: fleet and task boards, agent registry, cost and usage telemetry, knowledge search, and operator controls built in TypeScript and Next.js.",
+        "Stood up a self-hosted stack on DigitalOcean in June 2026 and tested backup and restore in July 2026 (encrypted SHA-256-checked copy, DigitalOcean snapshot verified twice, cold restore passed; gaps found)."
       ]
     },
     {
