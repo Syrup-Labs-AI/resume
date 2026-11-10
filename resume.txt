@@ -21,7 +21,7 @@ PROFESSIONAL EXPERIENCE
 
 SYRUP LABS AI (SYRP.AI) | Chadds Ford, PA
 Founder, AI Automation Consultant | Feb 2026 - Present
-AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.
+AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses.
 - Designed and deployed AI concierge and intake systems providing lead tracking, automated follow-up, and analytics visibility.
 - Built parent/subagent architectures with prompt guardrails, FAQ handling, escalation logic, and intent separation.
 - Implemented low-code automation pipelines using HubSpot, Google Sheets, Gmail.

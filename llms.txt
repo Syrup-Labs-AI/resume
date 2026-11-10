@@ -41,7 +41,7 @@ Plain text: https://syrp.ai/resume.txt
 - Work authorization: US citizen
 
 ## Current ventures
-Syrup Labs AI (syrp.ai): AI automation consultancy building agentic systems, lead capture workflows, and customer support automation for small businesses. 3 active clients.
+Syrup Labs AI (syrp.ai): AI automation consultancy building agentic systems, lead capture workflows, and customer support automation for small businesses. Pre-revenue.
 Little Thistle Farms (littlethistlefarms.com): 1-acre CSA farm LLC, Chadds Ford PA.
 
 ## Do not contact about
