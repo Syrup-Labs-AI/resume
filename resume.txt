@@ -20,20 +20,22 @@ Work Management: Jira (Global Admin), Confluence, Agile/Scrum, Notion, Visio, MS
 PROFESSIONAL EXPERIENCE
 
 SYRUP LABS AI (SYRP.AI) | Chadds Ford, PA
-Director, Business Operations and AI Enablement (title of record: AI Automation Consultant) | Feb 2026 - Present
-AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.
-- Designed and deployed AI concierge and intake systems providing lead tracking, automated follow-up, and analytics visibility.
+AI Automation Consultant | Feb 2026 - Present
+AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Pre-revenue.
+- Built and internally validated AI concierge, intake, and lead-routing systems on Syrup Labs' own infrastructure.
 - Built parent/subagent architectures with prompt guardrails, FAQ handling, escalation logic, and intent separation.
 - Implemented low-code automation pipelines using HubSpot, Google Sheets, Gmail.
 - Created live pilot environments including hosted landing pages, QR-based event capture, and end-to-end demo environments.
-- Led full engagement lifecycle: discovery, scope, pricing, prompt iteration, testing, and phased rollout.
+- Ran the full build lifecycle on Syrup Labs' own infrastructure: scope, prompt iteration, testing, and phased rollout.
+- Directed AI agents to build Mission Control, an agent orchestration platform based on the open-source builderz-labs/mission-control, with its own integrations layer and settings panels: fleet and task boards, agent registry, cost and usage telemetry, knowledge search, and operator controls built in TypeScript and Next.js.
+- Stood up a self-hosted stack on DigitalOcean in June 2026 and tested backup and restore in July 2026 (encrypted SHA-256-checked copy, DigitalOcean snapshot verified twice, cold restore passed; gaps found).
 
 DWYEROMEGA | Chadds Ford, PA
-Director, Business Operations and AI Enablement (title of record: AI & Enterprise Transformation Manager) | Jan 2024 - Feb 2026
+AI and Enterprise Transformation Manager | Jan 2024 - Feb 2026
 PE-backed industrial sensors, instrumentation, and semiconductor manufacturer; enterprise transformation spanning ERP/MRP, AMS, CRM/MarTech, and enterprise BI.
 - Managed execution for 6 acquisitions and consolidations valued at $800M+ into core ERP/MRP landscape.
 - Owned enterprise reporting governance across global orders, sales, pricing, quality, and inventory.
-- Oversaw 15-20 resource offshore vendor team.
+- Directed an offshore vendor team.
 - Global Admin for Jira and Confluence; deployed AI-assisted knowledge management in Confluence.
 - Applied AI and LLMs across documentation generation, requirements analysis, and data reconciliation workflows.
 - Led greenfield AMS and Microsoft Fabric implementation planning.
@@ -42,14 +44,14 @@ PE-backed industrial sensors, instrumentation, and semiconductor manufacturer; e
 
 DWYEROMEGA | Swedesboro, NJ
 Senior Automation Engineer | Apr 2021 - Jan 2024
-Automation, analytics, and continuous improvement in PE-backed sensor and wire manufacturing; 3 consecutive Top Performer of the Year awards.
+Automation, analytics, and continuous improvement in PE-backed sensor and wire manufacturing.
 - Designed and executed $2M+ in automation and robotics-driven capital projects.
-- Reduced on-hand inventory by 60%+ across a $20M+ inventory base.
+- Reduced on-hand inventory by more than 60% across a $20M+ inventory base.
 - Led Lean and continuous improvement initiatives including Kaizen events.
 - Built KPI dashboards for operations, engineering, and supply chain.
 
 EDUCATION
-Villanova University | MBA, Strategic Management, Analytics & AI/ML | 2023-2025 | GPA 4.0 | Beta Gamma Sigma
+Villanova University | MBA, Strategic Management, Analytics & AI/ML | 2022 to 2025 | GPA 4.0 | Beta Gamma Sigma
 University of Maryland, Baltimore County | B.S. Chemical Engineering | 2010-2016
 
 CERTIFICATIONS

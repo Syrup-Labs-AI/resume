@@ -6,7 +6,7 @@
     "email": "alanjacobkarp@gmail.com",
     "phone": "601-389-7206",
     "url": "https://syrp.ai",
-    "summary": "Transformation and integration leader with a background spanning manufacturing, enterprise systems, analytics, and AI automation. Founded Syrup Labs AI (syrp.ai) to translate operational experience into applied AI, delivering agentic concierge systems, lead capture workflows, and automation infrastructure for small and local businesses across retail, hospitality, and local services. Previously at DwyerOmega, drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through six acquisitions ($800M+), while implementing AI-enabled knowledge management to improve governance at scale. B.S. Chemical Engineering (UMBC) and MBA (Villanova: Strategy, Analytics, AI/ML). Strong in ambiguous environments requiring structure, stakeholder alignment, technical problem solving, and follow-through.",
+    "summary": "Transformation and integration leader with a background spanning manufacturing, enterprise systems, analytics, and AI automation. Founded Syrup Labs AI (syrp.ai) to translate operational experience into applied AI, delivering agentic concierge systems, lead capture workflows, and automation infrastructure for small and local businesses. Previously at DwyerOmega, drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through six acquisitions ($800M+), while implementing AI-enabled knowledge management to improve governance at scale. B.S. Chemical Engineering (UMBC) and MBA (Villanova: Strategy, Analytics, AI/ML). Strong in ambiguous environments requiring structure, stakeholder alignment, technical problem solving, and follow-through.",
     "location": {
       "city": "Chadds Ford",
       "region": "PA",
@@ -30,17 +30,19 @@
   "work": [
     {
       "name": "Syrup Labs AI (syrp.ai)",
-      "position": "AI and Enterprise Transformation Manager",
+      "position": "AI Automation Consultant",
       "url": "https://syrp.ai",
       "startDate": "2026-02",
       "location": "Chadds Ford, PA",
-      "summary": "Title of record: Founder & AI Automation Consultant. AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Built AI automation systems for retail, hospitality, and local services use cases.",
+      "summary": "AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Pre-revenue.",
       "highlights": [
-        "Designed and deployed AI concierge and intake systems including website assistants, event and community signup flows, and structured inquiry routing, providing lead tracking, automated follow-up, and analytics visibility into inquiry volume and source.",
+        "Built and internally validated AI concierge, intake, and lead-routing systems on Syrup Labs' own infrastructure.",
         "Built parent/subagent architectures grounded in business-specific knowledge bases, with prompt guardrails, FAQ handling, escalation logic, and intent separation between general support and qualified lead triggers.",
-        "Implemented low-code automation pipelines using Google Sheets, Gmail, and website widgets to capture submissions, trigger notifications, log inquiries, track QR and source campaigns, and route qualified leads into client workflows.",
-        "Created live pilot environments including hosted landing pages, QR-based event capture, AI-assisted customer support flows, and end-to-end demo environments for stakeholder review and client onboarding.",
-        "Led full engagement lifecycle: discovery, scope, pricing, prompt iteration, testing, and phased rollout; translated ambiguous business goals into automation roadmaps with ROI tied to admin time saved and lead capture volume."
+        "Implemented low-code automation pipelines using Google Sheets, Gmail, and website widgets to capture submissions, trigger notifications, log inquiries, track QR and source campaigns, and route qualified leads on Syrup Labs' own infrastructure.",
+        "Created live pilot environments including hosted landing pages, QR-based event capture, AI-assisted customer support flows, and end-to-end demo environments.",
+        "Ran the full build lifecycle on Syrup Labs' own infrastructure: scope, prompt iteration, testing, and phased rollout.",
+        "Directed AI agents to build Mission Control, an agent orchestration platform based on the open-source builderz-labs/mission-control, with its own integrations layer and settings panels: fleet and task boards, agent registry, cost and usage telemetry, knowledge search, and operator controls built in TypeScript and Next.js.",
+        "Stood up a self-hosted stack on DigitalOcean in June 2026 and tested backup and restore in July 2026 (encrypted SHA-256-checked copy, DigitalOcean snapshot verified twice, cold restore passed; gaps found)."
       ]
     },
     {
@@ -53,7 +55,7 @@
       "highlights": [
         "Managed program and project execution for six acquisitions and business consolidations valued at $800M+ into the core ERP/MRP and reporting landscape, standardizing KPIs and processes for repeatable integration execution.",
         "Owned enterprise reporting governance and reconciliation across global orders, sales, pricing, quality, and inventory, supporting decisions tied to pricing, margin, and working capital.",
-        "Oversaw a 15-20 resource offshore vendor team, managing day-to-day tasking, prioritization, progress reporting, and delivery performance tracking.",
+        "Directed an offshore vendor team, managing day-to-day tasking, prioritization, progress reporting, and delivery performance tracking.",
         "Served as Global Admin for Jira and Confluence; owned the operating model for intake, documentation standards, testing, and sign-off; deployed AI-assisted knowledge management in Confluence to improve documentation quality and governance scalability.",
         "Led greenfield implementation planning for enterprise AMS and Microsoft Fabric, coordinating cross-functional discovery, harmonization, and planning with an external consulting partner.",
         "Integrated CRM and marketing technologies (Salesforce, Hybris, GA4) with ERP, AMS, and Fabric, enabling funnel visibility, abandoned-cart analysis, and reliable product and pricing data.",
@@ -62,14 +64,14 @@
     },
     {
       "name": "DwyerOmega",
-      "position": "Senior Manufacturing and Automation Engineer",
+      "position": "Senior Automation Engineer",
       "startDate": "2021-04",
       "endDate": "2024-01",
       "location": "Swedesboro, NJ",
-      "summary": "Operations and manufacturing engineering in sensor and wire manufacturing; three consecutive Top Performer of the Year awards.",
+      "summary": "Operations and manufacturing engineering in sensor and wire manufacturing.",
       "highlights": [
         "Designed and executed $2M+ in automation and robotics-driven capital projects, improving throughput, reducing labor and overhead costs, and supporting sensor performance.",
-        "Applied analytics and predictive methods to planning and inventory, cutting waste and reducing on-hand inventory by 75% while maintaining internal service levels.",
+        "Applied analytics and predictive methods to planning and inventory, cutting waste and reducing on-hand inventory by more than 60% while maintaining internal service levels.",
         "Led Lean and continuous improvement initiatives including standardized work design, root-cause problem solving, and Kaizen events, driving sustained improvements in scrap, uptime, and changeover.",
         "Built KPI dashboards with operations, engineering, and supply chain to improve leadership visibility into output, scrap, and operational constraints."
       ]
@@ -122,7 +124,7 @@
       "institution": "Villanova University",
       "area": "Strategic Management, Analytics & AI/ML",
       "studyType": "Master of Business Administration (MBA)",
-      "startDate": "2023",
+      "startDate": "2022",
       "endDate": "2025",
       "score": "4.0 GPA",
       "courses": [
