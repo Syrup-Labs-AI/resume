@@ -137,7 +137,7 @@ selftest() {
   t "a clean tree passes (positive control)" "$r"
 
   # RULE 2: remove the title from one data file only.
-  ( cd "$tmp" && sed -i 's/AI Program Manager//g' resume.txt
+  ( cd "$tmp" && sed -i 's/Director, Business Operations and AI Enablement//g' resume.txt
     bash check-rules.sh >/dev/null 2>&1 ); [ $? -eq 1 ] && r=1 || r=0
   t "rule 2 refuses when resume.txt drifts from index.html" "$r"
   cp resume.txt "$tmp/resume.txt"

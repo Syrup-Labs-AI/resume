@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Alan Karp",
-    "label": "AI Program Manager",
+    "label": "Director, Business Operations and AI Enablement",
     "email": "alanjacobkarp@gmail.com",
     "phone": "601-389-7206",
     "url": "https://syrp.ai",
-    "summary": "Title of record: AI and Enterprise Transformation Manager (DwyerOmega). Transformation and integration leader with a background spanning manufacturing, enterprise systems, analytics, and AI automation. Founded Syrup Labs AI (syrp.ai) to translate operational experience into applied AI, delivering agentic concierge systems, lead capture workflows, and automation infrastructure for small and local businesses. Previously at DwyerOmega, drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through six acquisitions ($800M+), while implementing AI-enabled knowledge management to improve governance at scale. B.S. Chemical Engineering (UMBC) and MBA (Villanova: Strategy, Analytics, AI/ML). Strong in ambiguous environments requiring structure, stakeholder alignment, technical problem solving, and follow-through.",
+    "summary": "Transformation and integration leader with a background spanning manufacturing, enterprise systems, analytics, and AI automation. Founded Syrup Labs AI (syrp.ai) to translate operational experience into applied AI, delivering agentic concierge systems, lead capture workflows, and automation infrastructure for small and local businesses. Previously at DwyerOmega, drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through six acquisitions ($800M+), while implementing AI-enabled knowledge management to improve governance at scale. B.S. Chemical Engineering (UMBC) and MBA (Villanova: Strategy, Analytics, AI/ML). Strong in ambiguous environments requiring structure, stakeholder alignment, technical problem solving, and follow-through.",
     "location": {
       "city": "Chadds Ford",
       "region": "PA",
