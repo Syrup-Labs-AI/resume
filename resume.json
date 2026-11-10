@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Alan Karp",
-    "label": "Director, Business Operations and AI Enablement",
+    "label": "AI Program Manager",
     "email": "alanjacobkarp@gmail.com",
     "phone": "601-389-7206",
     "url": "https://syrp.ai",
@@ -53,7 +53,7 @@
       "highlights": [
         "Managed program and project execution for six acquisitions and business consolidations valued at $800M+ into the core ERP/MRP and reporting landscape, standardizing KPIs and processes for repeatable integration execution.",
         "Owned enterprise reporting governance and reconciliation across global orders, sales, pricing, quality, and inventory, supporting decisions tied to pricing, margin, and working capital.",
-        "Oversaw a 15-20 resource offshore vendor team, managing day-to-day tasking, prioritization, progress reporting, and delivery performance tracking.",
+        "Directed an offshore vendor team, managing day-to-day tasking, prioritization, progress reporting, and delivery performance tracking.",
         "Served as Global Admin for Jira and Confluence; owned the operating model for intake, documentation standards, testing, and sign-off; deployed AI-assisted knowledge management in Confluence to improve documentation quality and governance scalability.",
         "Led greenfield implementation planning for enterprise AMS and Microsoft Fabric, coordinating cross-functional discovery, harmonization, and planning with an external consulting partner.",
         "Integrated CRM and marketing technologies (Salesforce, Hybris, GA4) with ERP, AMS, and Fabric, enabling funnel visibility, abandoned-cart analysis, and reliable product and pricing data.",
@@ -66,7 +66,7 @@
       "startDate": "2021-04",
       "endDate": "2024-01",
       "location": "Swedesboro, NJ",
-      "summary": "Operations and manufacturing engineering in sensor and wire manufacturing; three consecutive Top Performer of the Year awards.",
+      "summary": "Operations and manufacturing engineering in sensor and wire manufacturing.",
       "highlights": [
         "Designed and executed $2M+ in automation and robotics-driven capital projects, improving throughput, reducing labor and overhead costs, and supporting sensor performance.",
         "Applied analytics and predictive methods to planning and inventory, cutting waste and reducing on-hand inventory by 75% while maintaining internal service levels.",
@@ -122,7 +122,7 @@
       "institution": "Villanova University",
       "area": "Strategic Management, Analytics & AI/ML",
       "studyType": "Master of Business Administration (MBA)",
-      "startDate": "2023",
+      "startDate": "2022",
       "endDate": "2025",
       "score": "4.0 GPA",
       "courses": [
