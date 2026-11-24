@@ -6,7 +6,7 @@
     "email": "alanjacobkarp@gmail.com",
     "phone": "601-389-7206",
     "url": "https://syrp.ai",
-    "summary": "Transformation and integration leader with a background spanning manufacturing, enterprise systems, analytics, and AI automation. Founded Syrup Labs AI (syrp.ai) to translate operational experience into applied AI, delivering agentic concierge systems, lead capture workflows, and automation infrastructure for small and local businesses. Previously at DwyerOmega, drove cross-functional execution across ERP/MRP, AMS, CRM/MarTech, and enterprise reporting through six acquisitions ($800M+), while implementing AI-enabled knowledge management to improve governance at scale. B.S. Chemical Engineering (UMBC) and MBA (Villanova: Strategy, Analytics, AI/ML). Strong in ambiguous environments requiring structure, stakeholder alignment, technical problem solving, and follow-through.",
+    "summary": "Director of Business Operations and AI Enablement with 10 years driving enterprise transformation at PE-backed manufacturing platforms. At DwyerOmega, led cross-functional program execution across ERP/MRP, AMS, CRM/MarTech, and enterprise BI through 6 acquisitions ($800M+), reporting to PE stakeholders and executive leadership throughout. Since February 2026, building and operating agentic AI systems, lead capture workflows, and automation infrastructure at Syrup Labs AI (pre-revenue, with the company itself as customer zero), translating messy operational realities into structured, repeatable automation programs. Manufacturing specialist: ERP/MRP integration, M&A consolidation, and AI-assisted knowledge management across industrial operations. MBA, Villanova (Strategy, Analytics, AI/ML). B.S. Chemical Engineering, UMBC.",
     "location": {
       "city": "Chadds Ford",
       "region": "PA",
@@ -34,15 +34,15 @@
       "url": "https://syrp.ai",
       "startDate": "2026-02",
       "location": "Chadds Ford, PA",
-      "summary": "AI automation consultancy building and deploying agentic systems, lead capture workflows, and customer support automation for small and local businesses. Pre-revenue.",
+      "summary": "AI Automation Consultant. Pre-revenue. Building and operating agentic systems, lead capture workflows and support automation, with Syrup Labs itself as customer zero.",
       "highlights": [
         "Built and internally validated AI concierge, intake, and lead-routing systems on Syrup Labs' own infrastructure.",
-        "Built parent/subagent architectures grounded in business-specific knowledge bases, with prompt guardrails, FAQ handling, escalation logic, and intent separation between general support and qualified lead triggers.",
-        "Implemented low-code automation pipelines using Google Sheets, Gmail, and website widgets to capture submissions, trigger notifications, log inquiries, track QR and source campaigns, and route qualified leads on Syrup Labs' own infrastructure.",
-        "Created live pilot environments including hosted landing pages, QR-based event capture, AI-assisted customer support flows, and end-to-end demo environments.",
-        "Ran the full build lifecycle on Syrup Labs' own infrastructure: scope, prompt iteration, testing, and phased rollout.",
+        "Built parent/subagent architectures grounded in business-specific knowledge bases, with prompt guardrails, FAQ handling, escalation logic, and intent separation between support and qualified lead triggers.",
         "Directed AI agents to build Mission Control, an agent orchestration platform based on the open-source builderz-labs/mission-control, with its own integrations layer and settings panels: fleet and task boards, agent registry, cost and usage telemetry, knowledge search, and operator controls built in TypeScript and Next.js.",
-        "Stood up a self-hosted stack on DigitalOcean in June 2026 and tested backup and restore in July 2026 (encrypted SHA-256-checked copy, DigitalOcean snapshot verified twice, cold restore passed; gaps found)."
+        "Architected and operate the firm's own agent platform: multi-agent orchestration across four machines with self-hosted model inference and routing, a vector-backed memory layer, MCP tool servers, machine-identity secrets rotation, and a CI estate with required checks and a self-hosted runner.",
+        "Built governance into the platform rather than around it: refusing checkers that block unsafe actions, append-only audit receipts for every agent call, consent gates on personal data, and delegation rules that separate the agent doing work from the agent judging it.",
+        "Stood up a self-hosted stack on DigitalOcean in June 2026 and tested backup and restore in July 2026 (encrypted SHA-256-checked copy, DigitalOcean snapshot verified twice, cold restore passed; gaps found).",
+        "Audited my own research-grading pipeline, found the judge was returning a passing template regardless of input, and closed the pipeline rather than ship it."
       ]
     },
     {
@@ -51,15 +51,16 @@
       "startDate": "2024-01",
       "endDate": "2026-02",
       "location": "Chadds Ford, PA",
-      "summary": "Title of record: AI & Enterprise Transformation Manager. PE-backed industrial platform; enterprise transformation spanning ERP/MRP, AMS, CRM/MarTech, and enterprise BI across Operations, Finance, Commercial, IT, and Supply Chain.",
+      "summary": "AI and Enterprise Transformation Manager. PE-backed industrial sensors, instrumentation, and semiconductor manufacturer; enterprise transformation spanning ERP/MRP, AMS, CRM/MarTech, and enterprise BI across Operations, Finance, Commercial, IT, Supply Chain, and PE stakeholders.",
       "highlights": [
-        "Managed program and project execution for six acquisitions and business consolidations valued at $800M+ into the core ERP/MRP and reporting landscape, standardizing KPIs and processes for repeatable integration execution.",
-        "Owned enterprise reporting governance and reconciliation across global orders, sales, pricing, quality, and inventory, supporting decisions tied to pricing, margin, and working capital.",
-        "Directed an offshore vendor team, managing day-to-day tasking, prioritization, progress reporting, and delivery performance tracking.",
-        "Served as Global Admin for Jira and Confluence; owned the operating model for intake, documentation standards, testing, and sign-off; deployed AI-assisted knowledge management in Confluence to improve documentation quality and governance scalability.",
-        "Led greenfield implementation planning for enterprise AMS and Microsoft Fabric, coordinating cross-functional discovery, harmonization, and planning with an external consulting partner.",
-        "Integrated CRM and marketing technologies (Salesforce, Hybris, GA4) with ERP, AMS, and Fabric, enabling funnel visibility, abandoned-cart analysis, and reliable product and pricing data.",
-        "Built a repeatable data-forensics workflow using Power Query, DAX Studio, and KNIME to reconcile large datasets and validate executive reporting when data integrity was disputed."
+        "Led AI and enterprise transformation programs across 6 acquisitions ($800M+), integrating ERP/MRP (SAP S/4HANA, SyteLine, QAD), AMS, CRM/MarTech, and enterprise BI while reporting directly to PE stakeholders and C-suite leadership.",
+        "Applied AI and large language models across operational workflows including documentation generation, requirements analysis, data reconciliation automation, and vendor performance reporting, delivered at scale across post-merger integration environments.",
+        "Managed program and project execution across cross-functional teams spanning Operations, Finance, Commercial, IT, and Supply Chain; standardized KPIs and integration playbooks for repeatable M&A execution.",
+        "Owned enterprise reporting governance and reconciliation across global orders, sales, pricing, quality, and inventory; supported executive and PE decisions tied to pricing, margin, and working capital.",
+        "Directed an offshore vendor team: day-to-day tasking, prioritization, progress reporting, and delivery performance tracking.",
+        "Served as Global Admin for Jira and Confluence; deployed AI-assisted knowledge management in Confluence to improve documentation quality and governance scalability.",
+        "Led greenfield implementation planning for enterprise AMS and Microsoft Fabric; coordinated cross-functional discovery, harmonization, and planning with external consulting partner.",
+        "Built repeatable data-forensics workflow using Power Query, DAX Studio, and KNIME to reconcile large datasets and validate executive reporting when data integrity was disputed."
       ]
     },
     {
@@ -68,12 +69,12 @@
       "startDate": "2021-04",
       "endDate": "2024-01",
       "location": "Swedesboro, NJ",
-      "summary": "Operations and manufacturing engineering in sensor and wire manufacturing.",
+      "summary": "Automation, analytics, and continuous improvement in PE-backed sensor and wire manufacturing.",
       "highlights": [
-        "Designed and executed $2M+ in automation and robotics-driven capital projects, improving throughput, reducing labor and overhead costs, and supporting sensor performance.",
-        "Applied analytics and predictive methods to planning and inventory, cutting waste and reducing on-hand inventory by more than 60% while maintaining internal service levels.",
-        "Led Lean and continuous improvement initiatives including standardized work design, root-cause problem solving, and Kaizen events, driving sustained improvements in scrap, uptime, and changeover.",
-        "Built KPI dashboards with operations, engineering, and supply chain to improve leadership visibility into output, scrap, and operational constraints."
+        "Applied analytics and predictive methods to planning and inventory; reduced on-hand inventory by more than 60% across a $20M+ inventory base while maintaining internal service levels and improving delivery performance.",
+        "Designed and executed $2M+ in automation and robotics-driven capital projects, improving throughput, reducing labor and overhead costs, and supporting sensor performance; served as cross-functional lead coordinating engineering, operations, and supply chain.",
+        "Led Lean and continuous improvement initiatives including standardized work design, root-cause problem solving, and Kaizen events; drove sustained improvements in scrap, uptime, and changeover.",
+        "Built KPI dashboards with operations, engineering, and supply chain leadership to improve executive visibility into output, scrap, and operational constraints."
       ]
     },
     {
@@ -116,7 +117,7 @@
       "position": "Co-Founder and Operator",
       "url": "https://littlethistlefarms.com",
       "startDate": "2023-01",
-      "summary": "2-acre organic heirloom farm LLC in Chadds Ford, PA, growing garlic, flowers, and herbs and producing heirloom canned and pickled goods; active local business partnerships."
+      "summary": "Organic heirloom farm LLC in Chadds Ford, PA: seed garlic, elderberry and greenhouse seedlings, sold direct and to local stores."
     }
   ],
   "education": [
@@ -165,33 +166,38 @@
     {
       "name": "AI Automation",
       "keywords": [
-        "AI Agent Design",
-        "Agentic Workflow Architecture",
-        "Prompt Engineering",
+        "Agent Design",
+        "Agentic Workflows",
+        "Multi-Agent Orchestration",
+        "Delegation Frameworks",
+        "Prompt, Context & Intent Engineering",
         "Knowledge Base Design",
+        "Model Context Protocol (MCP)",
+        "Claude Agent SDK",
+        "Crew.ai",
+        "Hermes Agent",
+        "OpenClaw",
         "Low-Code Automation",
-        "AI Concierge Systems",
-        "Lead Capture & Routing",
         "n8n",
         "Gemini",
         "Claude",
         "ChatGPT",
-        "Google Workspace Automation"
+        "LangChain",
+        "AutoResearch AI"
       ]
     },
     {
-      "name": "Core Competencies",
+      "name": "AI Infrastructure & Platform",
       "keywords": [
-        "Enterprise Transformation",
-        "Post-Merger Integration",
-        "Program & Project Leadership",
-        "ERP/MRP & Enterprise Applications",
-        "CRM & MarTech Enablement",
-        "Data Platforms & BI",
-        "Reporting Governance",
-        "Operational ROI from AI",
-        "Agile & Sprint Planning",
-        "Change Management"
+        "Self-Hosted LLM Inference (Ollama)",
+        "Model Routing & Gateways (OmniRoute, OpenRouter, Nous Research)",
+        "Vector Databases (Qdrant)",
+        "RAG Pipelines",
+        "MCP Server Operations",
+        "Agent Memory Architecture",
+        "Secrets Management & Machine Identity (Infisical)",
+        "AI Governance",
+        "ROI & Returns Modeling for Agent Workloads"
       ]
     },
     {
@@ -217,28 +223,49 @@
         "Python",
         "R",
         "DAX Studio",
-        "KNIME"
+        "KNIME",
+        "Power Query"
       ]
     },
     {
       "name": "CRM & MarTech",
       "keywords": [
         "Salesforce",
+        "HubSpot",
         "Hybris",
         "GA4"
       ]
     },
     {
-      "name": "Work Management",
+      "name": "Program Management",
       "keywords": [
-        "Jira",
+        "Jira (Global Admin)",
         "Confluence",
         "Agile",
         "Scrum",
+        "Lean Six Sigma",
+        "Post-Merger Integration",
+        "Change Management"
+      ]
+    },
+    {
+      "name": "Work Management",
+      "keywords": [
         "Notion",
         "Visio",
         "MS Office",
-        "Adobe Suite"
+        "Adobe Suite",
+        "draw.io",
+        "SOLIDWORKS"
+      ]
+    },
+    {
+      "name": "Workflows, Skills & Agents I Operate (counted 2026-11-10)",
+      "keywords": [
+        "18 agents defined",
+        "45 skills routed",
+        "15 CI workflows",
+        "Self-proving instruments with refusing selftests"
       ]
     }
   ]
