@@ -40,7 +40,11 @@ rule2() {
   # Titles are the claims that have actually drifted. Add a line to widen it.
   for s in "AI Program Manager" \
            "Director, Business Operations and AI Enablement" \
-           "GoHighLevel"; do
+           "GoHighLevel" \
+           "AI and Enterprise Transformation Manager" \
+           "customer zero" \
+           "Copperweld" \
+           "for small businesses"; do
     # NO `|| echo 0` here. grep -c PRINTS 0 and ALSO exits 1 on no match, so the
     # fallback appended a second line and every comparison silently broke. The
     # first version of this check shipped with that bug and its own selftest
@@ -82,9 +86,9 @@ rule5() {
   # A ratchet set to what it found permits that number forever; Hard
   # Rule 0 says no em dashes, ever, so zero is the only honest baseline.
   local em base=0
-  em=$(grep -o '—' index.html 2>/dev/null | wc -l)
+  em=$(cat index.html resume.json resume.txt llms.txt 2>/dev/null | grep -o -e '—' -e '–' | wc -l)
   if [ "$em" -gt "$base" ]; then
-    fail "rule 5: index.html has $em em dashes, $base are Alan's known ones, $((em-base)) are new"
+    fail "rule 5: the four published files have $em em or en dashes, $base are Alan's known ones, $((em-base)) are new"
   else
     ok "rule 5: no new em dashes (found $em, baseline $base)"
   fi

@@ -3,8 +3,8 @@
 const http = require('http'), fs = require('fs'), path = require('path');
 const { chromium } = require('playwright');
 const ROOT = path.resolve(__dirname, '..'), OUT = path.join(__dirname, 'screenshots');
-// shortcut: dashes already on the page are Alan's to rule (CLAUDE.md rule 5); fail only if the count grows. Set to 0 once he rules.
-const DASH_BASELINE = 12;
+// Hard Rule 0: no em or en dashes, ever. Ratcheted 12 -> 0 on 2026-11-24 when the last three en dashes in dates were replaced with "to".
+const DASH_BASELINE = 0;
 const TYPES = { '.html': 'text/html', '.json': 'application/json', '.txt': 'text/plain' };
 const results = [], seen = {};
 const check = async (name, fn) => {
